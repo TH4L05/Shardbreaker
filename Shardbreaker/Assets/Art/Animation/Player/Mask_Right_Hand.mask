@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mask_Right_Hand
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: FPS Hands
+    m_Weight: 1
+  - m_Path: Armature_Player
+    m_Weight: 1
+  - m_Path: Armature_Player/Root
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Shoulder_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Shoulder_L/UpperArm_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Shoulder_L/UpperArm_L/LowerArm_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Head
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/Pinky_Hand_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/Pinky_Hand_L/Pinky_1_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/Pinky_Hand_L/Pinky_1_L/Pinky_2_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/Pinky_Hand_L/Pinky_1_L/Pinky_2_L/Pinky_3_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/RingFinger_Hand_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/RingFinger_Hand_L/RingFinger_1_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/RingFinger_Hand_L/RingFinger_1_L/RingFinger_2_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/RingFinger_Hand_L/RingFinger_1_L/RingFinger_2_L/RingFinger_3_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/MiddleFinger_Hand_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/MiddleFinger_Hand_L/MiddleFinger_1_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/MiddleFinger_Hand_L/MiddleFinger_1_L/MiddleFinger_2_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/MiddleFinger_Hand_L/MiddleFinger_1_L/MiddleFinger_2_L/MiddleFinger_3_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/Index_Hand_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/Index_Hand_L/Index_1_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/Index_Hand_L/Index_1_L/Index_2_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/Index_Hand_L/Index_1_L/Index_2_L/Index_3_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/Thumb_Hand_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/Thumb_Hand_L/Thumb_1_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Wrist_IK_L/Thumb_Hand_L/Thumb_1_L/Thumb_2_L
+    m_Weight: 0
+  - m_Path: Armature_Player/Root/Shoulder_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Shoulder_R/UpperArm_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Shoulder_R/UpperArm_R/LowerArm_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/Pinky_Hand_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/Pinky_Hand_R/Pinky_1_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/Pinky_Hand_R/Pinky_1_R/Pinky_2_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/Pinky_Hand_R/Pinky_1_R/Pinky_2_R/Pinky_3_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/RingFinger_Hand_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/RingFinger_Hand_R/RingFinger_1_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/RingFinger_Hand_R/RingFinger_1_R/RingFinger_2_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/RingFinger_Hand_R/RingFinger_1_R/RingFinger_2_R/RingFinger_3_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/MiddleFinger_Hand_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/MiddleFinger_Hand_R/MiddleFinger_1_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/MiddleFinger_Hand_R/MiddleFinger_1_R/MiddleFinger_2_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/MiddleFinger_Hand_R/MiddleFinger_1_R/MiddleFinger_2_R/MiddleFinger_3_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/Index_Hand_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/Index_Hand_R/Index_1_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/Index_Hand_R/Index_1_R/Index_2_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/Index_Hand_R/Index_1_R/Index_2_R/Index_3_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/Thumb_Hand_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/Thumb_Hand_R/Thumb_1_R
+    m_Weight: 1
+  - m_Path: Armature_Player/Root/Wrist_IK_R/Thumb_Hand_R/Thumb_1_R/Thumb_2_R
+    m_Weight: 1
