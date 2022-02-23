@@ -20,5 +20,6 @@
 - Player and Movement
 - Enemy Behaviour
 - IngameUI (HUD, Menu) functionality
+- Wwise integration
 
 ![Shardbreaker](https://img.itch.zone/aW1hZ2UvMTE1NjQ4Mi82ODExNzk1LmpwZw==/original/uP8Q5D.jpg)
