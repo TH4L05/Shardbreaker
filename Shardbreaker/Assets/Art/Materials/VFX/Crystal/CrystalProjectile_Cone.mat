@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CrystalProjectile_Cone
+  m_Shader: {fileID: -6465566751694194690, guid: 36f06bc14cd81d140822a69a2bab4ca3, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_2a7e6bb889e046908d598d9d9593e843:
+        m_Texture: {fileID: 2800000, guid: 5306b5ff1cb48824db63caebeaff4e31, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_32c001e90f3848f18561541400e5fbef:
+        m_Texture: {fileID: 2800000, guid: 20d42792311edb2429eafd86e70d6e7e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_dc8d4f595ef443dc843f8356b061c46e:
+        m_Texture: {fileID: 2800000, guid: de54f6fd913379d4e8f8d36ab8ed57f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_1f9f4743b3774d8b98693f5b9df33089: 0
+    - Boolean_ed7999e02f0243458475dc6f0c9863b2: 0
+    - Boolean_ed7999e02f0243458475dc6f0c9863b2_1: 0
+    - Vector1_1: 0.391
+    - Vector1_2: 0.613
+    - Vector1_3: 0.754
+    - Vector1_39bcd1e939be4d3a9a972575844c91d2: 0.078
+    - Vector1_4: 1
+    - Vector1_4aab4cf8a5b14ce0ab916f8e89f8010c: 1.59
+    - Vector1_4df32703bae0444cb1c208585c79d26f: 0
+    - Vector1_6f7709799b6c4751b692e8afedcd07f0: 0.68
+    - Vector1_76b8b1aac0204417b514b9f119b8f190: 1
+    - Vector1_8e16a33884d64ba8bac719b6292ab564: 10
+    - Vector1_9472795ad2bb48ac8138aba7e38b6ca6: 0
+    - Vector1_a06c3c2c65cb4889b9b1a82385e3559a: 0.41
+    - Vector1_a4e3f625990a4483ba6e082e73fe784c: 1
+    - Vector1_b1ea075a03434259b54e2cd2b89c8565: 0.074
+    - Vector1_b7a59496dca04b68b0562425e78796f1: 0.646
+    m_Colors:
+    - Color_1: {r: 0, g: 1.0060347, b: 15.999998, a: 0}
+    - Color_2: {r: 1.1321906, g: 0, b: 3.9999995, a: 0}
+    - Color_3: {r: 0, g: 0, b: 0, a: 0}
+    - Color_30ca7306e1e4421eb07f7e0e484e739d: {r: 11.984314, g: 11.984314, b: 11.984314, a: 0}
+    - Color_4: {r: 0, g: 0, b: 0, a: 0}
+    - Color_908e940ef01a4f93bfadfc80bb39c085: {r: 0, g: 0, b: 0, a: 0}
+    - Color_dec76d8f147849e29613f5df320f9b21: {r: 0, g: 1.348369, b: 11.984314, a: 0}
+    - Vector2_2ef467a8038c411f8c95205824d36e96: {r: 1, g: 0.2, b: 0, a: 0}
+    - Vector2_3db9e5b3398746f995b7ad4539fdafe0: {r: 0, g: 0.1, b: 0, a: 0}
+    - Vector2_5a31b4cfcd5b4a9f998cddb7435d0d3e: {r: 2, g: 1, b: 0, a: 0}
+    - Vector2_74f096caeab84460b9d671db9d394e98: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_9673e8905ef941aa837a8b1dfb46c9c1: {r: 1, g: 0, b: 0, a: 0}
+    - Vector2_996920c7e22643c7ba4ae0a603de9d29: {r: 0.01, g: 0.2, b: 0, a: 0}
+    - Vector2_edc57756b021423c8d4b217cbb428c30: {r: 0.5, g: 0.8, b: 0, a: 0}
+    - Vector4_b24a0b6c11db41d3b87e825eea8ef094: {r: 1, g: 0.5, b: 1, a: 0}
+  m_BuildTextureStacks: []

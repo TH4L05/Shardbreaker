@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Flash_FirySmoke
+  m_Shader: {fileID: -6465566751694194690, guid: 5412992a1e54e18478dcb705b1773bd7, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_2c3b8372d8f24a2187ce0758f1f9e7de:
+        m_Texture: {fileID: 2800000, guid: 6cb6c5d6815450a49a3804f171c7ccbe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_561debfa410c47319ea60142762962c8:
+        m_Texture: {fileID: 2800000, guid: a685ee44db97f1a48808ea98588d87a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_b04b0aaaebe34aeca347f8be95e688fb:
+        m_Texture: {fileID: 2800000, guid: 605d22816bf422b4cb494df216ecc4cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_c83a9e4aeeac441c920ac62712c996c7:
+        m_Texture: {fileID: 2800000, guid: 625eb7b1bfada874faecbb7a5f55359d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 625eb7b1bfada874faecbb7a5f55359d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UVDistortion_667438f9d1d840129e96625654d77b93_Texture2D808111a497184a1593195c543dcb989c_924730401:
+        m_Texture: {fileID: 2800000, guid: 9ee640e301825c94cbf6c8abc1238409, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Mask_Add_: 0.19
+    - Vector1_01a881eb859747b6802a07a91df2eec2: 0.2
+    - Vector1_1: 1
+    - Vector1_1dc3c5487d5548049b5395dc812cbdcf: 58.76
+    - Vector1_38356d39ea984a7d902f0f0cc609bbbf: 0.3
+    - Vector1_46005516d6904db9bf3a327e7fa5f14c: 0.3
+    - Vector1_57fc6fa6407f421eba35694634e753e8: 13.73
+    - Vector1_5e5253ab7a53457391884824d34a6b99: 0.441
+    - Vector1_61e6836efe06484d9eb2c400d51eb955: 0.5
+    - Vector1_6343dc7df5204c2dad40169b5145d1f0: 1
+    - Vector1_647049372668403c899fd80ee846a7ff: 0.202
+    - Vector1_64c3ac28cde84df4ae9de4eaf80d2c0c: 0
+    - Vector1_8381af190dd3469cbbe311a186626873: 30
+    - Vector1_8ddf79c3da5a4c0093210c17140fc08d: 0.2
+    - Vector1_a51b72e03e1142e5be064785bfee3d8f: 1
+    - Vector1_b131992ce0c041f393e2942982b9670f: 5
+    - Vector1_b337153a1ab54722ab1489c833dcc87f: 0.5
+    - Vector1_c82e096ab02640439645915cbf2357f8: 1.31
+    - Vector1_e1934ad62bed438192cee0a231d03a86: 0.79
+    - _CutOff_Threshold: 0.5
+    - _FlipBook_Index: 0
+    - _Mask_Power: 3
+    - _Noise_Add: 0.5
+    - _Noise_Power: 20
+    - _Noise_Scale: 33
+    - _Sharpness_HighEnd: 0.764
+    - _Sharpness_LowEnd: 0
+    m_Colors:
+    - Color_5007a6de8ce347b7a5a9f4f345fa06bd: {r: 2.509804, g: 3.0117648, b: 4, a: 1}
+    - Vector2_080bf8c7d5234369b5c92ad82a26fa0a: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_28398ef53ab74300854c1bf0eeaf6ac3: {r: -0.01, g: -0.01, b: 0, a: 0}
+    - Vector2_2f1bd2065db2423aad7cd8cd2ac82540: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - Vector2_4ee34e85c7d64cadac3afb9e8cee0939: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - Vector2_620aa0c88fa348ec899b593a79372285: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_a0bb5b923b9845bab5f27b83626d49af: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_f9f52777c1f74c299185b81e3b946b23: {r: 2, g: 0, b: 0, a: 0}
+    - _Color: {r: 8, g: 8, b: 8, a: 1}
+    - _FlipBook_Size: {r: 1, g: 1, b: 0, a: 0}
+    - _Noise_Speed: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

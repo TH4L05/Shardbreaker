@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Crystal_Shard_VFX
+  m_Shader: {fileID: -6465566751694194690, guid: 9a41559a326002545aacbca03c202a57, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Mask_:
+        m_Texture: {fileID: 2800000, guid: e3c13d5dbf0bfbe439e54aa9aca90a2b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_44e01039e3874636b7d2f55b1e6e708a:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_3760a18e624a423a83802aa17aa48385_Texture_1:
+        m_Texture: {fileID: 2800000, guid: e3c13d5dbf0bfbe439e54aa9aca90a2b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_947be7ed27bb4c28b0260f6944934d47: 0
+    - Boolean_aa7fdd4f67dd4c5bac4236b18bb1fdaf: 1
+    - Color_Variance_: 10
+    - Color_Variance_Sharpness_: 8
+    - FlipBook_Index_: 0
+    - IsEmissive_: 1
+    - Metallic_: 1
+    - Reflection_Strength_: 0.2
+    - Smootheness_: 1
+    - Vector1_064e6521da794a9c9976c558b3372ee3: 2
+    - Vector1_5522478a55174ec49d58b13b88575f20: 6
+    - Vector1_a44a5e5abb6543e99255f63b38d9a31f: 0.124
+    - Vector1_a52e8656fdab43d09f0aa70ba7c1240b: 10.7
+    - Vector1_ae6beb46f8944e8399ba6c5625835f67: 1
+    - Vector1_ba5e87cdf40947669779268f10de1086: 2
+    - Vector1_c76fed861546444ba502b83e0b2609df: 1
+    - Vector1_d4a6f427e8e748269ba9f63adbaee07a: 1
+    m_Colors:
+    - Color_2e88255f342c48fcad97603140ffa110: {r: 0.638876, g: 0, b: 1, a: 0}
+    - Color_6c97847d793e4d58944fb7c869d17ce0: {r: 0.5048227, g: 0, b: 1, a: 0}
+    - Color_6d07013eae234c32bd3f7d88b2ec3a62: {r: 0.07058824, g: 0.10265676, b: 0.7490196, a: 0}
+    - Color_9068056324fc4ac487fda9da9fe21ac1: {r: 0.47613132, g: 0, b: 1, a: 0}
+    - Color_98e17a12d14f478991f1740b3da297cf: {r: 0.291708, g: 0, b: 1, a: 0}
+    - Color_A_: {r: 0.47058827, g: 0.7686275, b: 0.8745099, a: 1}
+    - Color_A_Emission_: {r: 0, g: 0, b: 0, a: 0}
+    - Color_A_Emission__1: {r: 1.4980392, g: 0.8862745, b: 1.4588236, a: 1}
+    - Color_B_: {r: 0.8470589, g: 0.9686275, b: 0.9294118, a: 1}
+    - FlipBook_Size_: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

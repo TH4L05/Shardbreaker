@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sunrays_Icy 1
+  m_Shader: {fileID: -6465566751694194690, guid: 68ec6e2ab344e9c46b6ca2685475732a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Alpha_Mask:
+        m_Texture: {fileID: 2800000, guid: 67f284d9f8f0da64ebd30e4e0811a8bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Intensity: 1
+    m_Colors:
+    - Vector2_1: {r: 0.59, g: 0, b: 0, a: 0}
+    - Vector2_212b12eaa1514f92a1599821416ca330: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_82a82e99a9724bb3b3ee1ebf894b64ef: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_ede745dd05e9481d9de7894e1305cb88: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0, g: 0.68278474, b: 2.6082377, a: 1}
+    - _Tiling: {r: 2, g: 1, b: 0, a: 0}
+    - _Tiling_1: {r: 0.5, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
