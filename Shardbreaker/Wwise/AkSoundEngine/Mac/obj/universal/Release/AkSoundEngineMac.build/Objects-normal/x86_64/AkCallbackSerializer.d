@@ -1,0 +1,34 @@
+dependencies: \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/wwiseunity/AkSoundEngine/Common/AkCallbackSerializer.cpp \
+  stdafx.h ../Common/AkCallbackSerializer.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/SoundEngine/Common/AkCallback.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/SoundEngine/Common/AkCommonDefs.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/SoundEngine/Common/AkSpeakerConfig.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/SoundEngine/Common/AkTypes.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/AkPlatforms.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/SoundEngine/Platforms/Mac/AkTypes.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/SoundEngine/Platforms/POSIX/AkTypes.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/SoundEngine/Common/AkSoundEngineExport.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/SoundEngine/Common/AkSpeakerVolumes.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/SoundEngine/Platforms/Generic/AkSpeakerVolumes.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/Tools/Common/AkPlatformFuncs.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/SoundEngine/Common/AkAtomic.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/SoundEngine/Platforms/Linux/AkAtomic.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/Tools/Mac/AkPlatformFuncs.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/Tools/Common/AkAssert.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/Tools/POSIX/AkPlatformFuncs.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/SoundEngine/Common/IAkPluginMemAlloc.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/SoundEngine/Common/AkMemoryMgr.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/Tools/Common/AkArray.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/Tools/Common/AkObject.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/Tools/Common/AkString.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/Tools/Common/AkFNVHash.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/Tools/Common/AkHashList.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/Tools/Common/AkKeyDef.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/SoundEngine/Common/AkMidiTypes.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/Tools/Common/AkMonitorError.h \
+  ../Common/SwigExceptionSwitch.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/Tools/Common/AkLock.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/Tools/POSIX/AkLock.h \
+  /Volumes/SSD/Jenkins/ws/wwise_v2021.1/Wwise/SDK/include/AK/Tools/Common/AkAutoLock.h \
+  ../Common/ExtraCallbacks.h
