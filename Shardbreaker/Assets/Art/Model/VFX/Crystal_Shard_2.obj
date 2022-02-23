@@ -1,0 +1,23 @@
+# ProBuilder 4.5.0
+# https://unity3d.com/unity/features/worldbuilding/probuilder
+# 29.06.2021 10:49:57
+
+mtllib ./Crystal_Shard_2.mtl
+o Crystal_Shard_2
+
+g Plane
+v 0 0 0
+v -0.05000019 0 0
+v 0 0.15 0
+v -0.0999999 0.1 0
+
+vt 0.7749997 0.01249999
+vt 0.4499984 0.01249999
+vt 0.7749997 0.9875
+vt 0.1250003 0.6625
+
+vn 0 0 1
+
+usemtl Lit
+f 3/3/1 4/4/1 2/2/1 1/1/1
+
