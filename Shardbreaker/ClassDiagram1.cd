@@ -1,0 +1,1048 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Character" Collapsed="true">
+    <Position X="25.5" Y="13.75" Width="1.5" />
+    <AssociationLine Name="health" Type="Health" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="25.844" Y="14.441" />
+        <Point X="25.844" Y="14.741" />
+        <Point X="23.625" Y="14.741" />
+        <Point X="23.625" Y="9.95" />
+        <Point X="24.812" Y="9.95" />
+        <Point X="24.812" Y="10.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAQBBEgIACAAAAAAACCAEAAACIBAAAAgAAAAAkACAAg=</HashCode>
+      <FileName>Assets\Scripts\Character\Character.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="timer" />
+      <Field Name="health" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Movement" Collapsed="true">
+    <Position X="29.25" Y="15" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gwYABAAUSCCEAyCAkACAggIAEIAHISEJKQABwwZAAAA=</HashCode>
+      <FileName>Assets\Scripts\Input\Movement.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="player" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MouseLook" Collapsed="true">
+    <Position X="31" Y="15" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="13.499" />
+        <Point X="26.542" Y="13.499" Type="JumpStart" />
+        <Point X="26.708" Y="13.499" Type="JumpEnd" />
+        <Point X="30.354" Y="13.499" Type="JumpStart" />
+        <Point X="30.521" Y="13.499" Type="JumpEnd" />
+        <Point X="31.103" Y="13.499" Type="JumpStart" />
+        <Point X="31.27" Y="13.499" Type="JumpEnd" />
+        <Point X="31.75" Y="13.499" />
+        <Point X="31.75" Y="15" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="player" Type="Player" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="31.938" Y="15.691" />
+        <Point X="31.938" Y="15.991" />
+        <Point X="27.25" Y="15.991" />
+        <Point X="27.25" Y="15.691" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAIEAEAiEAgAAAAAAAAEAAAAAAAAEBADAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Input\MouseLook.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="player" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="InputHandler" Collapsed="true">
+    <Position X="30" Y="10.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.329" />
+        <Point X="30.26" Y="7.329" Type="JumpStart" />
+        <Point X="30.427" Y="7.329" Type="JumpEnd" />
+        <Point X="30.75" Y="7.329" />
+        <Point X="30.75" Y="10.25" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="mouseLook" Type="MouseLook" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="31.185" Y="10.941" />
+        <Point X="31.188" Y="15" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="shoot" Type="Shoot" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="30.807" Y="10.941" />
+        <Point X="30.807" Y="12.491" />
+        <Point X="30.521" Y="12.491" Type="JumpStart" />
+        <Point X="30.354" Y="12.491" Type="JumpEnd" />
+        <Point X="26.708" Y="12.491" Type="JumpStart" />
+        <Point X="26.542" Y="12.491" Type="JumpEnd" />
+        <Point X="26.333" Y="12.491" Type="JumpStart" />
+        <Point X="26.167" Y="12.491" Type="JumpEnd" />
+        <Point X="24.75" Y="12.491" />
+        <Point X="24.75" Y="12.191" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEAjBEAAAACAAAQAgAAAAIAAABAAAAIABQCAA=</HashCode>
+      <FileName>Assets\Scripts\Input\InputHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="movement" />
+      <Field Name="mouseLook" />
+      <Field Name="shoot" />
+      <Field Name="pauseMenuRef" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="24" Y="9" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="9.375" />
+        <Point X="25.5" Y="9.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAQEAAAABAAAAAAIACAAAAAAAAAAAAIAQAAgAAQEA=</HashCode>
+      <FileName>Assets\Scripts\Timer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Health" Collapsed="true">
+    <Position X="24" Y="10.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="10.625" />
+        <Point X="25.5" Y="10.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQECAAAAAAACQAAQAgAEAQAAAAEAAAADBgAAAASAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Health.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shoot" Collapsed="true">
+    <Position X="24" Y="11.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="11.812" />
+        <Point X="25.5" Y="11.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ADQDAGAAAKANEQAICBgIAAAAAAAERAAACQAAACAARMA=</HashCode>
+      <FileName>Assets\Scripts\Character\Shoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseMenu" Collapsed="true">
+    <Position X="20.5" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.291" />
+        <Point X="20.125" Y="7.291" />
+        <Point X="20.125" Y="4.125" />
+        <Point X="20.5" Y="4.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CABgIgBAgAAAAAAAAAQAAAAAEAAAIBAAAAAAAAgAAUA=</HashCode>
+      <FileName>Assets\Scripts\UI\PauseMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SlimeAnimationEvents" Collapsed="true">
+    <Position X="53" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.349" />
+        <Point X="30.26" Y="7.349" Type="JumpStart" />
+        <Point X="30.427" Y="7.349" Type="JumpEnd" />
+        <Point X="52.788" Y="7.349" />
+        <Point X="52.788" Y="10.625" />
+        <Point X="53" Y="10.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABACAAIAgAEAQAAAAAAAEBAAAAAAIAAAAAgQABAAEAI=</HashCode>
+      <FileName>Assets\Scripts\Animation\SlimeAnimationEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ability" Collapsed="true">
+    <Position X="33.25" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.342" />
+        <Point X="30.26" Y="7.342" Type="JumpStart" />
+        <Point X="30.427" Y="7.342" Type="JumpEnd" />
+        <Point X="34" Y="7.342" />
+        <Point X="34" Y="10.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAgIAkQAAFAAAFBAAAABEQCAAAAgABAAIEAI=</HashCode>
+      <FileName>Assets\Scripts\Ability\Ability.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="25.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="IceShield_Boss" Collapsed="true">
+    <Position X="55.5" Y="12.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.327" />
+        <Point X="30.26" Y="7.327" Type="JumpStart" />
+        <Point X="30.427" Y="7.327" Type="JumpEnd" />
+        <Point X="55.069" Y="7.327" />
+        <Point X="55.069" Y="13.03" />
+        <Point X="55.5" Y="13.03" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="boss" Type="EnemySlimeBoss" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="56.312" Y="13.441" />
+        <Point X="56.312" Y="17.954" />
+        <Point X="26.625" Y="17.954" />
+        <Point X="26.625" Y="16.941" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\IceShield_Boss.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="boss" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AbilityOrb" Collapsed="true">
+    <Position X="36.25" Y="11.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.303" />
+        <Point X="30.26" Y="7.303" Type="JumpStart" />
+        <Point X="30.427" Y="7.303" Type="JumpEnd" />
+        <Point X="36.046" Y="7.303" />
+        <Point X="36.046" Y="12.062" />
+        <Point X="36.25" Y="12.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>DAAAAAAAAAAAAAAgAAAAAAAAAAAAAEgAQAgAAQAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Ability\AbilityOrb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletArmRevolver" Collapsed="true">
+    <Position X="36.25" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.316" />
+        <Point X="30.26" Y="7.316" Type="JumpStart" />
+        <Point X="30.427" Y="7.316" Type="JumpEnd" />
+        <Point X="36.017" Y="7.316" />
+        <Point X="36.017" Y="10.625" />
+        <Point X="36.25" Y="10.625" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="shootRef" Type="Shoot" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="37" Y="10.941" />
+        <Point X="37" Y="11.3" />
+        <Point X="36.129" Y="11.3" Type="JumpStart" />
+        <Point X="35.933" Y="11.3" Type="JumpEnd" />
+        <Point X="34.083" Y="11.3" Type="JumpStart" />
+        <Point X="33.917" Y="11.3" Type="JumpEnd" />
+        <Point X="31.268" Y="11.3" Type="JumpStart" />
+        <Point X="31.101" Y="11.3" Type="JumpEnd" />
+        <Point X="30.89" Y="11.3" Type="JumpStart" />
+        <Point X="30.723" Y="11.3" Type="JumpEnd" />
+        <Point X="30.521" Y="11.3" Type="JumpStart" />
+        <Point X="30.354" Y="11.3" Type="JumpEnd" />
+        <Point X="26.708" Y="11.3" Type="JumpStart" />
+        <Point X="26.542" Y="11.3" Type="JumpEnd" />
+        <Point X="26.333" Y="11.3" Type="JumpStart" />
+        <Point X="26.167" Y="11.3" Type="JumpEnd" />
+        <Point X="24.75" Y="11.3" />
+        <Point X="24.75" Y="11.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAACIAAAACAAAAAAAAAAAAAAAAAAAAAAgQAAgCAA=</HashCode>
+      <FileName>Assets\Scripts\Character\BulletArmRevolver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="shootRef" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CameraShake" Collapsed="true">
+    <Position X="36.25" Y="13" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.272" />
+        <Point X="30.26" Y="7.272" Type="JumpStart" />
+        <Point X="30.427" Y="7.272" Type="JumpEnd" />
+        <Point X="36.017" Y="7.272" />
+        <Point X="36.017" Y="13.312" />
+        <Point X="36.25" Y="13.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Character\CameraShake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthBar" Collapsed="true">
+    <Position X="21.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQCAAAACQAAAAAAAAAIAAAAAEAAAAAABAQACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\HealthBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DontDestroy" Collapsed="true">
+    <Position X="42.75" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.309" />
+        <Point X="30.26" Y="7.309" Type="JumpStart" />
+        <Point X="30.427" Y="7.309" Type="JumpEnd" />
+        <Point X="43.5" Y="7.309" />
+        <Point X="43.5" Y="10.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\DontDestroy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="41" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.29" />
+        <Point X="30.26" Y="7.29" Type="JumpStart" />
+        <Point X="30.427" Y="7.29" Type="JumpEnd" />
+        <Point X="41.75" Y="7.29" />
+        <Point X="41.75" Y="10.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AkAUAABBQCCQCAgEAgAAABAAFEZAABABQEEAASAAAGE=</HashCode>
+      <FileName>Assets\Scripts\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoulderSpawn" Collapsed="true">
+    <Position X="46.25" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.273" />
+        <Point X="30.26" Y="7.273" Type="JumpStart" />
+        <Point X="30.427" Y="7.273" Type="JumpEnd" />
+        <Point X="47" Y="7.273" />
+        <Point X="47" Y="10.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQUBgAAAAAAAQAAAABAABAAAgAEAAACACRQBJABAEA=</HashCode>
+      <FileName>Assets\Scripts\Level\BoulderSpawn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Level1" Collapsed="true">
+    <Position X="44.5" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.329" />
+        <Point X="30.26" Y="7.329" Type="JumpStart" />
+        <Point X="30.427" Y="7.329" Type="JumpEnd" />
+        <Point X="45.25" Y="7.329" />
+        <Point X="45.25" Y="10.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QgAAAAAAACIAAAAAQEAAAAAAAAAAAAAJAAAEgAAAAEg=</HashCode>
+      <FileName>Assets\Scripts\Level\Level1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestLevel" Collapsed="true">
+    <Position X="48" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.31" />
+        <Point X="30.26" Y="7.31" Type="JumpStart" />
+        <Point X="30.427" Y="7.31" Type="JumpEnd" />
+        <Point X="48.75" Y="7.31" />
+        <Point X="48.75" Y="10.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Level\TestLevel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotarTest" Collapsed="true">
+    <Position X="49.75" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.338" />
+        <Point X="30.26" Y="7.338" Type="JumpStart" />
+        <Point X="30.427" Y="7.338" Type="JumpEnd" />
+        <Point X="50.5" Y="7.338" />
+        <Point X="50.5" Y="10.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQEAgAABCAAAQAAAAAQAAAQAAAAIAAAADQAAAAAQIA=</HashCode>
+      <FileName>Assets\Scripts\MotarTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticlePause" Collapsed="true">
+    <Position X="55.5" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.316" />
+        <Point X="30.26" Y="7.316" Type="JumpStart" />
+        <Point X="30.427" Y="7.316" Type="JumpEnd" />
+        <Point X="55.079" Y="7.316" />
+        <Point X="55.079" Y="10.687" />
+        <Point X="55.5" Y="10.687" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAAAAAAAAAgEAAACAAAAAAAAAAAAAACAIEA=</HashCode>
+      <FileName>Assets\Scripts\ParticlePause.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectile" Collapsed="true">
+    <Position X="24" Y="12.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="13.125" />
+        <Point X="25.5" Y="13.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ACQQAAAgAAAAYAAAAAJIAAABABAEAQcIQARAAAAACAg=</HashCode>
+      <FileName>Assets\Scripts\Projectiles\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectileDummyHand" Collapsed="true">
+    <Position X="38.25" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.317" />
+        <Point X="30.26" Y="7.317" Type="JumpStart" />
+        <Point X="30.427" Y="7.317" Type="JumpEnd" />
+        <Point X="39" Y="7.317" />
+        <Point X="39" Y="10.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACAAAAAAAAAAAAAAAAAEAQCAAQAAAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Projectiles\ProjectileDummyHand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shatter_Projectile" Collapsed="true">
+    <Position X="55.5" Y="8.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.366" />
+        <Point X="30.26" Y="7.366" Type="JumpStart" />
+        <Point X="30.427" Y="7.366" Type="JumpEnd" />
+        <Point X="35.933" Y="7.366" Type="JumpStart" />
+        <Point X="36.1" Y="7.366" Type="JumpEnd" />
+        <Point X="46.917" Y="7.366" Type="JumpStart" />
+        <Point X="47.083" Y="7.366" Type="JumpEnd" />
+        <Point X="55.079" Y="7.366" />
+        <Point X="55.079" Y="9.062" />
+        <Point X="55.5" Y="9.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAIAEAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Projectiles\Shatter_Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shatter_Projectile_Emitter" Collapsed="true">
+    <Position X="55.5" Y="11.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.316" />
+        <Point X="30.26" Y="7.316" Type="JumpStart" />
+        <Point X="30.427" Y="7.316" Type="JumpEnd" />
+        <Point X="55.079" Y="7.316" />
+        <Point X="55.079" Y="11.938" />
+        <Point X="55.5" Y="11.938" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ICQAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Projectiles\Shatter_Projectile_Emitter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveLoadManager" Collapsed="true">
+    <Position X="39.75" Y="8.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.322" />
+        <Point X="30.26" Y="7.322" Type="JumpStart" />
+        <Point X="30.427" Y="7.322" Type="JumpEnd" />
+        <Point X="40.5" Y="7.322" />
+        <Point X="40.5" Y="8.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACIAAgAAAAAAgAAAAAgAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SaveGame\SaveLoadManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleAnimationPlayer" Collapsed="true">
+    <Position X="53" Y="8.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.297" />
+        <Point X="30.26" Y="7.297" Type="JumpStart" />
+        <Point X="30.427" Y="7.297" Type="JumpEnd" />
+        <Point X="52.758" Y="7.297" />
+        <Point X="52.758" Y="9.125" />
+        <Point X="53" Y="9.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgECAAAAAABAAgAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SimpleAnimationPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimedLife" Collapsed="true">
+    <Position X="24" Y="8" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="8.375" />
+        <Point X="25.5" Y="8.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TimedLife.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerAudio" Collapsed="true">
+    <Position X="40.75" Y="6" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.316" />
+        <Point X="30.26" Y="7.316" Type="JumpStart" />
+        <Point X="30.427" Y="7.316" Type="JumpEnd" />
+        <Point X="40.438" Y="7.316" />
+        <Point X="40.438" Y="6.346" />
+        <Point X="40.75" Y="6.346" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAABAAAAAAgAAAIAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Trigger\TriggerAudio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerBoulder" Collapsed="true">
+    <Position X="40.75" Y="5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.207" />
+        <Point X="30.26" Y="7.207" Type="JumpStart" />
+        <Point X="30.427" Y="7.207" Type="JumpEnd" />
+        <Point X="35.965" Y="7.207" />
+        <Point X="35.965" Y="7.27" />
+        <Point X="40.453" Y="7.27" />
+        <Point X="40.453" Y="5.312" />
+        <Point X="40.75" Y="5.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAIAAAAgAAAAAAAAAAAAAAQAAAAQAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Trigger\TriggerBoulder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerDamage" Collapsed="true">
+    <Position X="40.75" Y="4" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.316" />
+        <Point X="30.26" Y="7.316" Type="JumpStart" />
+        <Point X="30.427" Y="7.316" Type="JumpEnd" />
+        <Point X="40.455" Y="7.316" />
+        <Point X="40.455" Y="4.375" />
+        <Point X="40.75" Y="4.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Trigger\TriggerDamage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerDamageOverTime" Collapsed="true">
+    <Position X="50" Y="4" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.316" />
+        <Point X="30.26" Y="7.316" Type="JumpStart" />
+        <Point X="30.427" Y="7.316" Type="JumpEnd" />
+        <Point X="49.571" Y="7.316" />
+        <Point X="49.571" Y="4.312" />
+        <Point X="50" Y="4.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQECAAgBAAAgAAIAAAAAAAAIAAAEIMAAAAAkABAAEA=</HashCode>
+      <FileName>Assets\Scripts\Trigger\TriggerDamageOverTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerDeathZone" Collapsed="true">
+    <Position X="50" Y="2" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.285" />
+        <Point X="30.26" Y="7.285" Type="JumpStart" />
+        <Point X="30.427" Y="7.285" Type="JumpEnd" />
+        <Point X="49.54" Y="7.285" />
+        <Point X="49.54" Y="2.375" />
+        <Point X="50" Y="2.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Trigger\TriggerDeathZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerExplosion" Collapsed="true">
+    <Position X="40.75" Y="2" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.351" />
+        <Point X="30.26" Y="7.351" Type="JumpStart" />
+        <Point X="30.427" Y="7.351" Type="JumpEnd" />
+        <Point X="40.441" Y="7.351" />
+        <Point X="40.441" Y="2.438" />
+        <Point X="40.75" Y="2.438" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAACgIAAAAAAQAAAAAAAAAAAAAAUAAABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Trigger\TriggerExplosion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerGameObjectTransform" Collapsed="true">
+    <Position X="45" Y="3" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.324" />
+        <Point X="30.26" Y="7.324" Type="JumpStart" />
+        <Point X="30.427" Y="7.324" Type="JumpEnd" />
+        <Point X="44.625" Y="7.324" />
+        <Point X="44.625" Y="3.312" />
+        <Point X="45" Y="3.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAACAIAACCAAAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Trigger\TriggerGameObjectTransform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerPlatformFall" Collapsed="true">
+    <Position X="40.75" Y="3" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.284" />
+        <Point X="30.26" Y="7.284" Type="JumpStart" />
+        <Point X="30.427" Y="7.284" Type="JumpEnd" />
+        <Point X="40.438" Y="7.284" />
+        <Point X="40.438" Y="3.312" />
+        <Point X="40.75" Y="3.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAQAAAAAQAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\Trigger\TriggerPlatformFall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerPlayable" Collapsed="true">
+    <Position X="50" Y="5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.336" />
+        <Point X="30.26" Y="7.336" Type="JumpStart" />
+        <Point X="30.427" Y="7.336" Type="JumpEnd" />
+        <Point X="49.56" Y="7.336" />
+        <Point X="49.56" Y="5.312" />
+        <Point X="50" Y="5.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAQAAAAAAAgAAAAAAAwAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Trigger\TriggerPlayable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerSavePoint" Collapsed="true">
+    <Position X="50" Y="3" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.336" />
+        <Point X="30.26" Y="7.336" Type="JumpStart" />
+        <Point X="30.427" Y="7.336" Type="JumpEnd" />
+        <Point X="49.571" Y="7.336" />
+        <Point X="49.571" Y="3.312" />
+        <Point X="50" Y="3.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Trigger\TriggerSavePoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerSpawnGameObject" Collapsed="true">
+    <Position X="45" Y="6" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.293" />
+        <Point X="30.26" Y="7.293" Type="JumpStart" />
+        <Point X="30.427" Y="7.293" Type="JumpEnd" />
+        <Point X="44.625" Y="7.293" />
+        <Point X="44.625" Y="6.375" />
+        <Point X="45" Y="6.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAARAQAAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Trigger\TriggerSpawnGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerTeleport" Collapsed="true">
+    <Position X="45" Y="5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.351" />
+        <Point X="30.26" Y="7.351" Type="JumpStart" />
+        <Point X="30.427" Y="7.351" Type="JumpEnd" />
+        <Point X="44.572" Y="7.351" />
+        <Point X="44.572" Y="5.312" />
+        <Point X="45" Y="5.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Trigger\TriggerTeleport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerText" Collapsed="true">
+    <Position X="45" Y="4" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.303" />
+        <Point X="30.26" Y="7.303" Type="JumpStart" />
+        <Point X="30.427" Y="7.303" Type="JumpEnd" />
+        <Point X="44.625" Y="7.303" />
+        <Point X="44.625" Y="4.25" />
+        <Point X="45" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAgAAAAAAAAAAAAAIQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Trigger\TriggerText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerToggleRbPhysics" Collapsed="true">
+    <Position X="50" Y="6" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.316" />
+        <Point X="30.26" Y="7.316" Type="JumpStart" />
+        <Point X="30.427" Y="7.316" Type="JumpEnd" />
+        <Point X="49.571" Y="7.316" />
+        <Point X="49.571" Y="6.312" />
+        <Point X="50" Y="6.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEAAAAAIAAAAAAAACAQAAAAAAAIUA=</HashCode>
+      <FileName>Assets\Scripts\Trigger\TriggerToggleRbPhysics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerWallDestroy" Collapsed="true">
+    <Position X="45" Y="2" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.333" />
+        <Point X="30.26" Y="7.333" Type="JumpStart" />
+        <Point X="30.427" Y="7.333" Type="JumpEnd" />
+        <Point X="44.579" Y="7.333" />
+        <Point X="44.579" Y="2.375" />
+        <Point X="45" Y="2.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Trigger\TriggerWallDestroy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoadScene" Collapsed="true">
+    <Position X="18.25" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.337" />
+        <Point X="18.003" Y="7.337" />
+        <Point X="18.003" Y="5.062" />
+        <Point X="18.25" Y="5.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAQIAQAAAAAIAACAAAAgAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\LoadScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu" Collapsed="true">
+    <Position X="20.5" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.316" />
+        <Point X="20.125" Y="7.316" />
+        <Point X="20.125" Y="5.063" />
+        <Point X="20.5" Y="5.063" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAgANAAAAAQAACAAAAAAEAAAAEAggAAAQAQAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ButtonExtension" Collapsed="true">
+    <Position X="18.25" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.325" />
+        <Point X="18.003" Y="7.325" />
+        <Point X="18.003" Y="3.988" />
+        <Point X="18.25" Y="3.988" />
+        <Point X="18.25" Y="4.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAUggACAAiAAAAIAAAQACAAAgAAAIAAAgAQAIIAM=</HashCode>
+      <FileName>Assets\Scripts\UI\OptionMenu\ButtonExtension.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OptionsMenu" Collapsed="true">
+    <Position X="20.5" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.325" />
+        <Point X="20.125" Y="7.325" />
+        <Point X="20.125" Y="3.062" />
+        <Point X="20.5" Y="3.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QACaEAAAAAAQAABAAAUDAACAAAAAECBARIAACSAgIEQ=</HashCode>
+      <FileName>Assets\Scripts\UI\OptionMenu\OptionsMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI_Ability" Collapsed="true">
+    <Position X="20" Y="11.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.316" />
+        <Point X="22.5" Y="7.316" />
+        <Point X="22.5" Y="8.992" />
+        <Point X="19.625" Y="8.992" />
+        <Point X="19.625" Y="11.625" />
+        <Point X="20" Y="11.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAMAAASAAQABVAACAAAAAAAAIAEABAAAAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\UI_Ability.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI_Ammo" Collapsed="true">
+    <Position X="20" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.316" />
+        <Point X="22.5" Y="7.316" />
+        <Point X="22.5" Y="8.992" />
+        <Point X="19.625" Y="8.992" />
+        <Point X="19.625" Y="10.625" />
+        <Point X="20" Y="10.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAAAAAIAAAAAAAIAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\UI_Ammo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VFXController" Collapsed="true">
+    <Position X="53" Y="11.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="VFXController.VFX" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Utility\VFXController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.25" Y="6.941" />
+        <Point X="26.25" Y="7.325" />
+        <Point X="30.26" Y="7.325" Type="JumpStart" />
+        <Point X="30.427" Y="7.325" Type="JumpEnd" />
+        <Point X="52.75" Y="7.325" />
+        <Point X="52.75" Y="11.937" />
+        <Point X="53" Y="11.937" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAACEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\VFXController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="24.5" Y="15" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Enemy.State" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Character\Enemy.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <InheritanceLine Type="Character" FixedFromPoint="true">
+      <Path>
+        <Point X="26.25" Y="14.441" />
+        <Point X="26.25" Y="14.741" />
+        <Point X="25.25" Y="14.741" />
+        <Point X="25.25" Y="15" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gEyAAEgMgAACgAACJABhkgQAAJAAAAvENBIACACQAUM=</HashCode>
+      <FileName>Assets\Scripts\Character\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="26.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABYAFEQCDY9KAjQEggCUEAAEMACAAAKhIARAABSCheQ=</HashCode>
+      <FileName>Assets\Scripts\Character\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemySlime" Collapsed="true">
+    <Position X="24" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEEAAhIAAAAAAAAAgAAAAJAARAAgIAIAAAAyoAY=</HashCode>
+      <FileName>Assets\Scripts\Character\EnemySlime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemySlimeBoss" Collapsed="true">
+    <Position X="25.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAQBEEBQgIAYAAhAEAAABACAJAARAkgIAIAoEAiJAI=</HashCode>
+      <FileName>Assets\Scripts\Character\EnemySlimeBoss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ability1" Collapsed="true">
+    <Position X="32.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAEBAABAAAAAAAAAAAAEAAAAABAAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Ability\Ability1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ability2" Collapsed="true">
+    <Position X="34.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAABAABAgAAAAAAAAABEAABAAEBAACAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Ability\Ability2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="DamageTypes" Collapsed="true">
+    <Position X="22.5" Y="15" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="DamageTypes.DamageType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\DamageTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DamageTypes.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
