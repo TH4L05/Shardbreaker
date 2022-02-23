@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a66001ea1bbe14599a89ebbeb496e9, type: 3}
+  m_Name: A9928B01-EDFE-413C-9AF1-4ECB9F9CE62F
+  m_EditorClassIdentifier: 
+  objectName: Play_Avalanche_Event
+  id: 2575780728
+  guid: A9928B01-EDFE-413C-9AF1-4ECB9F9CE62F

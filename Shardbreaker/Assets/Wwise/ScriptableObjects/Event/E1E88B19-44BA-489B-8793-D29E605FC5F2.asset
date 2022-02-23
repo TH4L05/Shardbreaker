@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a66001ea1bbe14599a89ebbeb496e9, type: 3}
+  m_Name: E1E88B19-44BA-489B-8793-D29E605FC5F2
+  m_EditorClassIdentifier: 
+  objectName: Stop_Avalanche_Event
+  id: 2134046570
+  guid: E1E88B19-44BA-489B-8793-D29E605FC5F2
