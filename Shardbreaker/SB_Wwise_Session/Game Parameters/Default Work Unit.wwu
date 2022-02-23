@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D0BE611A-B4FE-41FD-8B8B-A7B27E156B29}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{D0BE611A-B4FE-41FD-8B8B-A7B27E156B29}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Fireball_Ammo" ID="{9B2B1728-1CCD-4776-A8FC-CF008B100F09}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="6"/>
+						<Property Name="Max" Type="Real64" Value="6"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="5"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="5"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Master_Volume_Fader" ID="{5CA4660C-55DD-4525-93AB-BF1B68B2DEB1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Master_Music_Fader" ID="{9E85A310-6B35-4181-964D-F0B29D2DC6E1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Master_SFX_Fader" ID="{2F88AE4E-89FE-43DE-B51D-D0248BF1AE46}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Player_Health" ID="{A73873F3-0D47-4C40-A1D5-D2FF0E590B7F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="35"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="35"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

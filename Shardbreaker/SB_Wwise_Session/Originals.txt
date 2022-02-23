@@ -1,0 +1,43 @@
+WAV Files
+
+Path	Format Tag	Num Channels	Channel Mask	Sample Rate	Avg Bytes Per Sec	Block Align	Bit Depth	Num Samples
+
+/SFX/Music/Ambient/SB_MUC_JF_Temple_Ambient_50bpm_4_bar_post.wav	0xFFFE	2	0x00000003	48000	288000	6	24	8294400
+/SFX/Music/Ambient/SB_MUC_MZ_Temple_Ambient_50bpm_4_bar_post.wav	0xFFFE	2	0x00000003	44100	264600	6	24	2380441
+/SFX/Music/Battle/SB_MH_Combat_145bpm.wav	0xFFFE	2	0x00000003	44100	264600	6	24	1578594
+/SFX/SFX/Ambience/Ambience Loops/SB_Amb_Ravine.wav	0xFFFE	2	0x00000003	48000	288000	6	24	2880000
+/SFX/SFX/Ambience/Ambience Loops/SB_Amb_Temple.wav	0xFFFE	2	0x00000003	48000	288000	6	24	2880000
+/SFX/SFX/Ambience/Ice Crackle/SB_Ice_Crackle_01.wav	0xFFFE	2	0x00000003	48000	288000	6	24	480000
+/SFX/SFX/Ambience/Ice Crackle/SB_Ice_Crackle_02.wav	0xFFFE	2	0x00000003	48000	288000	6	24	480000
+/SFX/SFX/Ambience/Ice Crackle/SB_Ice_Crackle_03.wav	0xFFFE	2	0x00000003	48000	288000	6	24	576000
+/SFX/SFX/Ambience/Ice Crackle/SB_Ice_Crackle_04.wav	0xFFFE	2	0x00000003	48000	288000	6	24	768000
+/SFX/SFX/Ambience/Ice Crackle/SB_Ice_Crackle_05.wav	0xFFFE	2	0x00000003	48000	288000	6	24	576000
+/SFX/SFX/Ambience/Ice Crackle/SB_Ice_Crackle_06.wav	0xFFFE	2	0x00000003	48000	288000	6	24	576000
+/SFX/SFX/Ambience/Ice Crackle/SB_Ice_Crackle_07.wav	0xFFFE	2	0x00000003	48000	288000	6	24	576000
+/SFX/SFX/Ambience/Ice Fall/SB_Ice_Fall_01.wav	0xFFFE	2	0x00000003	48000	288000	6	24	44795
+/SFX/SFX/Ambience/Ice Fall/SB_Ice_Fall_02.wav	0xFFFE	2	0x00000003	48000	288000	6	24	54000
+/SFX/SFX/Ambience/Ice Fall/SB_Ice_Fall_03.wav	0xFFFE	2	0x00000003	48000	288000	6	24	48000
+/SFX/SFX/Ambience/Ice Fall/SB_Ice_Fall_04.wav	0xFFFE	2	0x00000003	48000	288000	6	24	51640
+/SFX/SFX/Ambience/Singing Ice/SB_Singing_Ice_01.wav	0xFFFE	2	0x00000003	48000	288000	6	24	288000
+/SFX/SFX/Ambience/Singing Ice/SB_Singing_Ice_02.wav	0xFFFE	2	0x00000003	48000	288000	6	24	384000
+/SFX/SFX/Ambience/Singing Ice/SB_Singing_Ice_03.wav	0xFFFE	2	0x00000003	48000	288000	6	24	384000
+/SFX/SFX/Ambience/Singing Ice/SB_Singing_Ice_04.wav	0xFFFE	2	0x00000003	48000	288000	6	24	384000
+/SFX/SFX/Ambience/Singing Ice/SB_Singing_Ice_05.wav	0xFFFE	2	0x00000003	48000	288000	6	24	384000
+/SFX/SFX/Movement/Player/Crouch/crouch_01.wav	0xFFFE	2	0x00000003	48000	288000	6	24	30000
+/SFX/SFX/Movement/Player/Crouch/crouch_02.wav	0xFFFE	2	0x00000003	48000	288000	6	24	34775
+/SFX/SFX/Movement/Player/Crouch/crouch_03.wav	0xFFFE	2	0x00000003	48000	288000	6	24	24275
+/SFX/SFX/Movement/Player/Crouch/crouch_04.wav	0xFFFE	2	0x00000003	48000	288000	6	24	38000
+/SFX/SFX/Movement/Player/Crouch/crouch_05.wav	0xFFFE	2	0x00000003	48000	288000	6	24	33000
+/SFX/SFX/Movement/Player/Crouch/crouch_06.wav	0xFFFE	2	0x00000003	48000	288000	6	24	32450
+/SFX/SFX/Movement/Player/Crouch/crouch_07.wav	0xFFFE	2	0x00000003	48000	288000	6	24	34300
+/SFX/SFX/Movement/Player/Crouch/crouch_08.wav	0xFFFE	2	0x00000003	48000	288000	6	24	39290
+/SFX/SFX/Movement/Player/Surface/Stone/footstep_stone_01.wav	0xFFFE	2	0x00000003	48000	288000	6	24	28686
+/SFX/SFX/Movement/Player/Surface/Stone/footstep_stone_02.wav	0xFFFE	2	0x00000003	48000	288000	6	24	24311
+/SFX/SFX/Movement/Player/Surface/Stone/footstep_stone_03.wav	0xFFFE	2	0x00000003	48000	288000	6	24	17998
+/SFX/SFX/Movement/Player/Surface/Stone/footstep_stone_04.wav	0xFFFE	2	0x00000003	48000	288000	6	24	23720
+/SFX/SFX/Movement/Player/Surface/Stone/footstep_stone_05.wav	0xFFFE	2	0x00000003	48000	288000	6	24	23561
+/SFX/SFX/Movement/Player/Surface/Stone/footstep_stone_06.wav	0xFFFE	2	0x00000003	48000	288000	6	24	19585
+/SFX/SFX/Movement/Player/Surface/Stone/footstep_stone_07.wav	0xFFFE	2	0x00000003	48000	288000	6	24	30436
+/SFX/SFX/Movement/Player/Surface/Stone/footstep_stone_08.wav	0xFFFE	2	0x00000003	48000	288000	6	24	21708
+/SFX/SFX/Movement/Player/Surface/Stone/footstep_stone_09.wav	0xFFFE	2	0x00000003	48000	288000	6	24	23628
+/SFX/SFX/Movement/Player/Surface/Stone/footstep_stone_10.wav	0xFFFE	2	0x00000003	48000	288000	6	24	23386

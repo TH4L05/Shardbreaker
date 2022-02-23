@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\</ProjectRoot>
+		<SourceFilesRoot>D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2677101140">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+				<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="215992295" Name="Player_Health" ObjectPath="\Game Parameters\Default Work Unit\Player_Health"/>
+				<GameParameter Id="715886074" Name="Master_Music_Fader" ObjectPath="\Game Parameters\Default Work Unit\Master_Music_Fader"/>
+				<GameParameter Id="1119270718" Name="Master_SFX_Fader" ObjectPath="\Game Parameters\Default Work Unit\Master_SFX_Fader"/>
+				<GameParameter Id="3317133049" Name="Master_Volume_Fader" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume_Fader"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="90798337" Name="Reverb_Group" ObjectPath="\States\Default Work Unit\Reverb_Group" GUID="{324914B6-F541-43E0-B642-BC0AD04F1620}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Reverb_Group\None" GUID="{5EA88D75-8BE9-47E9-8F6F-CB2BA47AB7C1}"/>
+						<State Id="438105790" Name="Outside" ObjectPath="\States\Default Work Unit\Reverb_Group\Outside" GUID="{ED7A5442-24EF-4BA2-8045-9CCC84D753A2}"/>
+						<State Id="2323193050" Name="Temple" ObjectPath="\States\Default Work Unit\Reverb_Group\Temple" GUID="{765E8112-95A9-412E-BB81-15ED02DD59C4}"/>
+						<State Id="2216367768" Name="Small_Hall" ObjectPath="\States\Default Work Unit\Reverb_Group\Small_Hall" GUID="{ED8440AA-AB92-4D8D-89F9-FADF0AEBBDE0}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="374957911">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4122976862" Name="Pause_Audio" ObjectPath="\Events\Default Work Unit\Pause_Audio" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2575780728" Name="Play_Avalanche_Event" ObjectPath="\Events\Default Work Unit\Play_Avalanche_Event" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="14692668" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_12.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_12_835714D9.wem</Path>
+						</File>
+						<File Id="19132751" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_04.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_04_835714D9.wem</Path>
+						</File>
+						<File Id="70500053" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_01.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_01_835714D9.wem</Path>
+						</File>
+						<File Id="150966285" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_06.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_06_835714D9.wem</Path>
+						</File>
+						<File Id="195300535" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_07.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_07_835714D9.wem</Path>
+						</File>
+						<File Id="248174962" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Fall Event\Earthquake_Loop.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Fall Event\Earthquake_Loop_4DAFD53B.wem</Path>
+						</File>
+						<File Id="278032817" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Fall Event\Avalanche_Loop.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Fall Event\Avalanche_Loop_902EB870.wem</Path>
+						</File>
+						<File Id="503028849" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_03.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_03_835714D9.wem</Path>
+						</File>
+						<File Id="634751544" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_09.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_09_835714D9.wem</Path>
+						</File>
+						<File Id="735522093" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_05.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_05_835714D9.wem</Path>
+						</File>
+						<File Id="792872035" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_11.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_11_835714D9.wem</Path>
+						</File>
+						<File Id="821585041" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_08.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_08_835714D9.wem</Path>
+						</File>
+						<File Id="867632294" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_10.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_10_835714D9.wem</Path>
+						</File>
+						<File Id="869018253" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_02.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_02_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1149159311" Name="Play_Button_Click" ObjectPath="\Events\Default Work Unit\Play_Button_Click" DurationType="OneShot" DurationMin="1.000762" DurationMax="1.123317">
+					<IncludedMemoryFiles>
+						<File Id="186236346" Language="SFX">
+							<ShortName>SFX\UI\Button_Click.wav</ShortName>
+							<Path>SFX\SFX\UI\Button_Click_BB366E23.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4021863785" Name="Play_Button_Hover" ObjectPath="\Events\Default Work Unit\Play_Button_Hover" DurationType="OneShot" DurationMin="3.258474" DurationMax="3.258474">
+					<IncludedMemoryFiles>
+						<File Id="688635292" Language="SFX">
+							<ShortName>SFX\UI\Button_Hover.wav</ShortName>
+							<Path>SFX\SFX\UI\Button_Hover_D1021BEB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="31297086" Name="Play_Crystalbomb_Hit" ObjectPath="\Events\Default Work Unit\Play_Crystalbomb_Hit" DurationType="OneShot" DurationMin="2.642665" DurationMax="4.065932">
+					<IncludedMemoryFiles>
+						<File Id="566375187" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_01.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_01_835714D9.wem</Path>
+						</File>
+						<File Id="631967413" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_02.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_02_835714D9.wem</Path>
+						</File>
+						<File Id="957750160" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_03.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_03_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1137216064" Name="Play_Crystalbomb_Shoot" ObjectPath="\Events\Default Work Unit\Play_Crystalbomb_Shoot" DurationType="OneShot" DurationMin="2.426292" DurationMax="2.426292">
+					<IncludedMemoryFiles>
+						<File Id="775886393" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\SlimeEnemy_CrystalBomb.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\SlimeEnemy_CrystalBomb_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2186361168" Name="Play_CrystalShard" ObjectPath="\Events\Default Work Unit\Play_CrystalShard" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="525446888" Language="SFX">
+							<ShortName>SFX\Items\Crystals\Crystal_Pulsing_01.wav</ShortName>
+							<Path>SFX\SFX\Items\Crystals\Crystal_Pulsing_01_78E56A53.wem</Path>
+						</File>
+						<File Id="557221931" Language="SFX">
+							<ShortName>SFX\Items\Crystals\Crystal_Pulsing_02.wav</ShortName>
+							<Path>SFX\SFX\Items\Crystals\Crystal_Pulsing_02_97F1041B.wem</Path>
+						</File>
+						<File Id="625529759" Language="SFX">
+							<ShortName>SFX\Items\Crystals\Crystal_Pulsing_03.wav</ShortName>
+							<Path>SFX\SFX\Items\Crystals\Crystal_Pulsing_03_6BD24448.wem</Path>
+						</File>
+						<File Id="1048228808" Language="SFX">
+							<ShortName>SFX\Items\Crystals\Crystal_Pulsing_04.wav</ShortName>
+							<Path>SFX\SFX\Items\Crystals\Crystal_Pulsing_04_214E1FC9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1467917749" Name="Play_Cutscene_Audio" ObjectPath="\Events\Default Work Unit\Play_Cutscene_Audio" DurationType="OneShot" DurationMin="96.000000" DurationMax="96.000000">
+					<IncludedMemoryFiles>
+						<File Id="142787003" Language="SFX">
+							<ShortName>Cutscene\SB_Intro_Cutscene_wVO.wav</ShortName>
+							<Path>SFX\Cutscene\SB_Intro_Cutscene_wVO_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3265505770" Name="Play_Cutscene_Music" ObjectPath="\Events\Default Work Unit\Play_Cutscene_Music" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="141154202" Name="Play_Fire_AOE" ObjectPath="\Events\Default Work Unit\Play_Fire_AOE" DurationType="OneShot" DurationMin="5.003188" DurationMax="5.003188">
+					<IncludedMemoryFiles>
+						<File Id="86568776" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\SlimeEnemy_Fireshield.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\SlimeEnemy_Fireshield_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2033806570" Name="Play_Fireball_Impact" ObjectPath="\Events\Default Work Unit\Play_Fireball_Impact" DurationType="OneShot" DurationMin="3.563595" DurationMax="4.630156">
+					<IncludedMemoryFiles>
+						<File Id="110414950" Language="SFX">
+							<ShortName>SFX\Player\Fireballs\Hits\Fireball_Hit_04.wav</ShortName>
+							<Path>SFX\SFX\Player\Fireballs\Hits\Fireball_Hit_04_835714D9.wem</Path>
+						</File>
+						<File Id="345539239" Language="SFX">
+							<ShortName>SFX\Player\Fireballs\Hits\Fireball_Hit_01.wav</ShortName>
+							<Path>SFX\SFX\Player\Fireballs\Hits\Fireball_Hit_01_835714D9.wem</Path>
+						</File>
+						<File Id="984051319" Language="SFX">
+							<ShortName>SFX\Player\Fireballs\Hits\Fireball_Hit_02.wav</ShortName>
+							<Path>SFX\SFX\Player\Fireballs\Hits\Fireball_Hit_02_835714D9.wem</Path>
+						</File>
+						<File Id="1014323732" Language="SFX">
+							<ShortName>SFX\Player\Fireballs\Hits\Fireball_Hit_03.wav</ShortName>
+							<Path>SFX\SFX\Player\Fireballs\Hits\Fireball_Hit_03_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" DurationType="OneShot" DurationMin="0.289988" DurationMax="0.918782">
+					<IncludedMemoryFiles>
+						<File Id="649140" Language="SFX">
+							<ShortName>SFX\Movement\Player\Crouch\crouch_03.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Crouch\crouch_03_835714D9.wem</Path>
+						</File>
+						<File Id="41542410" Language="SFX">
+							<ShortName>SFX\Movement\Player\Crouch\crouch_05.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Crouch\crouch_05_835714D9.wem</Path>
+						</File>
+						<File Id="149202808" Language="SFX">
+							<ShortName>SFX\Movement\Player\Snow\footstep_snow_01.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Snow\footstep_snow_01_835714D9.wem</Path>
+						</File>
+						<File Id="157337873" Language="SFX">
+							<ShortName>SFX\Movement\Player\Snow\footstep_snow_07.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Snow\footstep_snow_07_835714D9.wem</Path>
+						</File>
+						<File Id="177094619" Language="SFX">
+							<ShortName>SFX\Movement\Player\Crouch\crouch_06.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Crouch\crouch_06_835714D9.wem</Path>
+						</File>
+						<File Id="210212238" Language="SFX">
+							<ShortName>SFX\Movement\Player\Snow\footstep_snow_02.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Snow\footstep_snow_02_835714D9.wem</Path>
+						</File>
+						<File Id="233816335" Language="SFX">
+							<ShortName>SFX\Movement\Player\Crouch\crouch_01.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Crouch\crouch_01_835714D9.wem</Path>
+						</File>
+						<File Id="234694841" Language="SFX">
+							<ShortName>SFX\Movement\Player\Snow\footstep_snow_04.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Snow\footstep_snow_04_835714D9.wem</Path>
+						</File>
+						<File Id="246312365" Language="SFX">
+							<ShortName>SFX\Movement\Player\Crouch\crouch_04.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Crouch\crouch_04_835714D9.wem</Path>
+						</File>
+						<File Id="320423422" Language="SFX">
+							<ShortName>SFX\Movement\Player\Surface\Stone\footstep_stone_07.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_07_835714D9.wem</Path>
+						</File>
+						<File Id="321062955" Language="SFX">
+							<ShortName>SFX\Movement\Player\Surface\Stone\footstep_stone_05.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_05_835714D9.wem</Path>
+						</File>
+						<File Id="380832895" Language="SFX">
+							<ShortName>SFX\Movement\Player\Snow\footstep_snow_08.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Snow\footstep_snow_08_835714D9.wem</Path>
+						</File>
+						<File Id="405157975" Language="SFX">
+							<ShortName>SFX\Movement\Player\Surface\Stone\footstep_stone_08.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_08_835714D9.wem</Path>
+						</File>
+						<File Id="422553571" Language="SFX">
+							<ShortName>SFX\Movement\Player\Snow\footstep_snow_05.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Snow\footstep_snow_05_835714D9.wem</Path>
+						</File>
+						<File Id="429187857" Language="SFX">
+							<ShortName>SFX\Movement\Player\Crouch\crouch_02.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Crouch\crouch_02_835714D9.wem</Path>
+						</File>
+						<File Id="446562228" Language="SFX">
+							<ShortName>SFX\Movement\Player\Snow\footstep_snow_10.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Snow\footstep_snow_10_835714D9.wem</Path>
+						</File>
+						<File Id="471772875" Language="SFX">
+							<ShortName>SFX\Movement\Player\Surface\Stone\footstep_stone_06.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_06_835714D9.wem</Path>
+						</File>
+						<File Id="522631587" Language="SFX">
+							<ShortName>SFX\Movement\Player\Surface\Stone\footstep_stone_10.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_10_835714D9.wem</Path>
+						</File>
+						<File Id="591356054" Language="SFX">
+							<ShortName>SFX\Movement\Player\Surface\Stone\footstep_stone_02.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_02_835714D9.wem</Path>
+						</File>
+						<File Id="594283698" Language="SFX">
+							<ShortName>SFX\Movement\Player\Surface\Stone\footstep_stone_03.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_03_835714D9.wem</Path>
+						</File>
+						<File Id="604291385" Language="SFX">
+							<ShortName>SFX\Movement\Player\Surface\Stone\footstep_stone_04.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_04_835714D9.wem</Path>
+						</File>
+						<File Id="632043289" Language="SFX">
+							<ShortName>SFX\Movement\Player\Snow\footstep_snow_06.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Snow\footstep_snow_06_835714D9.wem</Path>
+						</File>
+						<File Id="654669829" Language="SFX">
+							<ShortName>SFX\Movement\Player\Surface\Stone\footstep_stone_09.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_09_835714D9.wem</Path>
+						</File>
+						<File Id="712814053" Language="SFX">
+							<ShortName>SFX\Movement\Player\Snow\footstep_snow_09.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Snow\footstep_snow_09_835714D9.wem</Path>
+						</File>
+						<File Id="879815920" Language="SFX">
+							<ShortName>SFX\Movement\Player\Surface\Stone\footstep_stone_01.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_01_835714D9.wem</Path>
+						</File>
+						<File Id="883101453" Language="SFX">
+							<ShortName>SFX\Movement\Player\Crouch\crouch_07.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Crouch\crouch_07_835714D9.wem</Path>
+						</File>
+						<File Id="948916400" Language="SFX">
+							<ShortName>SFX\Movement\Player\Snow\footstep_snow_03.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Snow\footstep_snow_03_835714D9.wem</Path>
+						</File>
+						<File Id="992348648" Language="SFX">
+							<ShortName>SFX\Movement\Player\Crouch\crouch_08.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Crouch\crouch_08_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{A652B4AF-21BC-416B-BD27-72FEB4467D72}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{A652B4AF-21BC-416B-BD27-72FEB4467D72}">
+							<Media>
+								<File Id="320423422"/>
+								<File Id="321062955"/>
+								<File Id="405157975"/>
+								<File Id="471772875"/>
+								<File Id="522631587"/>
+								<File Id="591356054"/>
+								<File Id="594283698"/>
+								<File Id="604291385"/>
+								<File Id="654669829"/>
+								<File Id="879815920"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8155A318-D1D8-4345-A522-8C10196F4C3B}">
+							<Media>
+								<File Id="649140"/>
+								<File Id="41542410"/>
+								<File Id="177094619"/>
+								<File Id="233816335"/>
+								<File Id="246312365"/>
+								<File Id="429187857"/>
+								<File Id="883101453"/>
+								<File Id="992348648"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B0505601-5D98-408D-95CC-9A3F1CB2B485}">
+							<Media>
+								<File Id="149202808"/>
+								<File Id="157337873"/>
+								<File Id="210212238"/>
+								<File Id="234694841"/>
+								<File Id="380832895"/>
+								<File Id="422553571"/>
+								<File Id="446562228"/>
+								<File Id="632043289"/>
+								<File Id="712814053"/>
+								<File Id="948916400"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2639561595" Name="Play_Game_Ambience" ObjectPath="\Events\Default Work Unit\Play_Game_Ambience" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="83194755" Language="SFX">
+							<ShortName>SFX\Ambience\Singing Ice\SB_Singing_Ice_01.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Singing Ice\SB_Singing_Ice_01_835714D9.wem</Path>
+						</File>
+						<File Id="219731457" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Crackle\SB_Ice_Crackle_01.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Crackle\SB_Ice_Crackle_01_835714D9.wem</Path>
+						</File>
+						<File Id="265076322" Language="SFX">
+							<ShortName>SFX\Ambience\Singing Ice\SB_Singing_Ice_05.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Singing Ice\SB_Singing_Ice_05_835714D9.wem</Path>
+						</File>
+						<File Id="409317301" Language="SFX">
+							<ShortName>SFX\Ambience\Singing Ice\SB_Singing_Ice_04.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Singing Ice\SB_Singing_Ice_04_835714D9.wem</Path>
+						</File>
+						<File Id="421901819" Language="SFX">
+							<ShortName>SFX\Ambience\Ambience Loops\SB_Amb_Ravine.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ambience Loops\SB_Amb_Ravine_DCC21763.wem</Path>
+						</File>
+						<File Id="447643949" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Crackle\SB_Ice_Crackle_02.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Crackle\SB_Ice_Crackle_02_835714D9.wem</Path>
+						</File>
+						<File Id="484328337" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Crackle\SB_Ice_Crackle_06.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Crackle\SB_Ice_Crackle_06_835714D9.wem</Path>
+						</File>
+						<File Id="507232765" Language="SFX">
+							<ShortName>SFX\Ambience\Singing Ice\SB_Singing_Ice_02.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Singing Ice\SB_Singing_Ice_02_835714D9.wem</Path>
+						</File>
+						<File Id="507353998" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Crackle\SB_Ice_Crackle_04.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Crackle\SB_Ice_Crackle_04_835714D9.wem</Path>
+						</File>
+						<File Id="600853319" Language="SFX">
+							<ShortName>SFX\Ambience\Ambience Loops\SB_Amb_Temple.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ambience Loops\SB_Amb_Temple_39CAEF45.wem</Path>
+						</File>
+						<File Id="705424666" Language="SFX">
+							<ShortName>SFX\Ambience\Singing Ice\SB_Singing_Ice_03.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Singing Ice\SB_Singing_Ice_03_835714D9.wem</Path>
+						</File>
+						<File Id="891574096" Language="SFX">
+							<ShortName>SFX\Ambience\Ambience Loops\SB_Amb_Ravine.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ambience Loops\SB_Amb_Ravine_09F16C5B.wem</Path>
+						</File>
+						<File Id="1047193199" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Crackle\SB_Ice_Crackle_05.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Crackle\SB_Ice_Crackle_05_835714D9.wem</Path>
+						</File>
+						<File Id="1058821247" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Crackle\SB_Ice_Crackle_03.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Crackle\SB_Ice_Crackle_03_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{8E203E1F-759B-4B78-9EB5-F58B0BEEE0E8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{BEFF2DC5-0B34-465B-9410-96F65984A002}">
+							<Media>
+								<File Id="219731457"/>
+								<File Id="447643949"/>
+								<File Id="484328337"/>
+								<File Id="507353998"/>
+								<File Id="1047193199"/>
+								<File Id="1058821247"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BEFF2DC5-0B34-465B-9410-96F65984A002}">
+							<Media>
+								<File Id="83194755"/>
+								<File Id="265076322"/>
+								<File Id="409317301"/>
+								<File Id="507232765"/>
+								<File Id="705424666"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BEFF2DC5-0B34-465B-9410-96F65984A002}">
+							<Media>
+								<File Id="600853319"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F6D1539E-E376-4946-98B4-33703BAEA1AE}">
+							<Media>
+								<File Id="891574096"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8E203E1F-759B-4B78-9EB5-F58B0BEEE0E8}">
+							<Media>
+								<File Id="421901819"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3297008698" Name="Play_Jump_Land" ObjectPath="\Events\Default Work Unit\Play_Jump_Land" DurationType="OneShot" DurationMin="0.335108" DurationMax="0.422209">
+					<IncludedMemoryFiles>
+						<File Id="881997501" Language="SFX">
+							<ShortName>SFX\Movement\Player\SB_Jump_Land_01.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\SB_Jump_Land_01_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1766582619" Name="Play_Jump_Start" ObjectPath="\Events\Default Work Unit\Play_Jump_Start" DurationType="OneShot" DurationMin="0.290753" DurationMax="0.617755">
+					<IncludedMemoryFiles>
+						<File Id="472374589" Language="SFX">
+							<ShortName>SFX\Movement\Player\Jump_Start_04.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Jump_Start_04_835714D9.wem</Path>
+						</File>
+						<File Id="615099542" Language="SFX">
+							<ShortName>SFX\Movement\Player\Jump_Start_02.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Jump_Start_02_835714D9.wem</Path>
+						</File>
+						<File Id="718469942" Language="SFX">
+							<ShortName>SFX\Movement\Player\SB_Jump_Start_01.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\SB_Jump_Start_01_835714D9.wem</Path>
+						</File>
+						<File Id="1053162918" Language="SFX">
+							<ShortName>SFX\Movement\Player\Jump_Start_03.wav</ShortName>
+							<Path>SFX\SFX\Movement\Player\Jump_Start_03_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2228153899" Name="Play_Menu_Music" ObjectPath="\Events\Default Work Unit\Play_Menu_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="632980945" Language="SFX">
+							<ShortName>Music\Menu\SB_JF_Menu_Music_50bpm_4_4.wav</ShortName>
+							<Path>SFX\Music\Menu\SB_JF_Menu_Music_50bpm_4_4_179463A7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3260968109" Name="Play_Music_System" ObjectPath="\Events\Default Work Unit\Play_Music_System" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="275943627" Language="SFX">
+							<ShortName>Music\Ambient\SB_MUS_Cave_Entrance.wav</ShortName>
+							<Path>SFX\Music\Ambient\SB_MUS_Cave_Entrance_C0F4337B.wem</Path>
+						</File>
+						<File Id="355455819" Language="SFX">
+							<ShortName>Music\Ambient\SB_MH_Music_Temple_Ambience_70bpm_V2.wav</ShortName>
+							<Path>SFX\Music\Ambient\SB_MH_Music_Temple_Ambience_70bpm_V2_179463A7.wem</Path>
+						</File>
+						<File Id="540444824" Language="SFX">
+							<ShortName>Music\Ambient\SB_MUS_Temple_Entrance.wav</ShortName>
+							<Path>SFX\Music\Ambient\SB_MUS_Temple_Entrance_188406ED.wem</Path>
+						</File>
+						<File Id="907135870" Language="SFX">
+							<ShortName>Music\Battle\SB_MH_Battle_Normal_150bpm_7_8.wav</ShortName>
+							<Path>SFX\Music\Battle\SB_MH_Battle_Normal_150bpm_7_8_179463A7.wem</Path>
+						</File>
+						<File Id="1070895813" Language="SFX">
+							<ShortName>Music\Battle\SB_MH_Battle_Boss_150bpm_7_8.wav</ShortName>
+							<Path>SFX\Music\Battle\SB_MH_Battle_Boss_150bpm_7_8_179463A7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{195B78B6-925A-4E08-AB35-D31380A1E009}">
+							<Media>
+								<File Id="907135870"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{FB52BAA1-0546-4066-8C44-7D55FA5B6C51}">
+							<Media>
+								<File Id="275943627"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{ADEB9A2B-C575-48E4-9B15-B4893BAF569A}">
+							<Media>
+								<File Id="355455819"/>
+								<File Id="540444824"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E7BE9819-3B2A-46EC-ADE8-EB07523FC9B0}">
+							<Media>
+								<File Id="355455819"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6B0E3031-28B8-4644-9973-F35D4D088CC1}">
+							<Media>
+								<File Id="1070895813"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="306704257" Name="Play_Pickup_Crystal" ObjectPath="\Events\Default Work Unit\Play_Pickup_Crystal" DurationType="OneShot" DurationMin="4.000000" DurationMax="4.000000">
+					<IncludedMemoryFiles>
+						<File Id="1029019283" Language="SFX">
+							<ShortName>SFX\Items\Pickup_CrystalShard.wav</ShortName>
+							<Path>SFX\SFX\Items\Pickup_CrystalShard_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1339443994" Name="Play_Player_Ammo" ObjectPath="\Events\Default Work Unit\Play_Player_Ammo" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="338893702" Language="SFX">
+							<ShortName>SFX\Player\Fireballs\Fireballs_Ammunition_Loop.wav</ShortName>
+							<Path>SFX\SFX\Player\Fireballs\Fireballs_Ammunition_Loop_FE61F969.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2072508386" Name="Play_Player_Health" ObjectPath="\Events\Default Work Unit\Play_Player_Health" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="848431738" Language="SFX">
+							<ShortName>SFX\Player\Player_Heartbeat.wav</ShortName>
+							<Path>SFX\SFX\Player\Player_Heartbeat_602705A7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4110595278" Name="Play_Raptor_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Raptor_Footsteps" DurationType="OneShot" DurationMin="0.341682" DurationMax="0.518735">
+					<IncludedMemoryFiles>
+						<File Id="69327327" Language="SFX">
+							<ShortName>SFX\Raptor\Movement\footstep_Raptor_04.wav</ShortName>
+							<Path>SFX\SFX\Raptor\Movement\footstep_Raptor_04_835714D9.wem</Path>
+						</File>
+						<File Id="267000063" Language="SFX">
+							<ShortName>SFX\Raptor\Movement\footstep_Raptor_03.wav</ShortName>
+							<Path>SFX\SFX\Raptor\Movement\footstep_Raptor_03_835714D9.wem</Path>
+						</File>
+						<File Id="571591952" Language="SFX">
+							<ShortName>SFX\Raptor\Movement\footstep_Raptor_02.wav</ShortName>
+							<Path>SFX\SFX\Raptor\Movement\footstep_Raptor_02_835714D9.wem</Path>
+						</File>
+						<File Id="792762944" Language="SFX">
+							<ShortName>SFX\Raptor\Movement\footstep_Raptor_06.wav</ShortName>
+							<Path>SFX\SFX\Raptor\Movement\footstep_Raptor_06_835714D9.wem</Path>
+						</File>
+						<File Id="1007698392" Language="SFX">
+							<ShortName>SFX\Raptor\Movement\footstep_Raptor_05.wav</ShortName>
+							<Path>SFX\SFX\Raptor\Movement\footstep_Raptor_05_835714D9.wem</Path>
+						</File>
+						<File Id="1064698601" Language="SFX">
+							<ShortName>SFX\Raptor\Movement\footstep_Raptor_01.wav</ShortName>
+							<Path>SFX\SFX\Raptor\Movement\footstep_Raptor_01_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3055495521" Name="Play_Raptor_Jump" ObjectPath="\Events\Default Work Unit\Play_Raptor_Jump" DurationType="OneShot" DurationMin="0.634861" DurationMax="0.634861">
+					<IncludedMemoryFiles>
+						<File Id="904727850" Language="SFX">
+							<ShortName>SFX\Raptor\Raptor_Jump_01.wav</ShortName>
+							<Path>SFX\SFX\Raptor\Raptor_Jump_01_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="847368790" Name="Play_Raptor_Scream" ObjectPath="\Events\Default Work Unit\Play_Raptor_Scream" DurationType="OneShot" DurationMin="1.862164" DurationMax="1.862164">
+					<IncludedMemoryFiles>
+						<File Id="948661007" Language="SFX">
+							<ShortName>SFX\Raptor\Raptor_Attack_Scream_01.wav</ShortName>
+							<Path>SFX\SFX\Raptor\Raptor_Attack_Scream_01_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3293684279" Name="Play_Reload_Fireball" ObjectPath="\Events\Default Work Unit\Play_Reload_Fireball" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000">
+					<IncludedMemoryFiles>
+						<File Id="619555685" Language="SFX">
+							<ShortName>SFX\Player\Fireballs\Shoot\Reload_Fireball.wav</ShortName>
+							<Path>SFX\SFX\Player\Fireballs\Shoot\Reload_Fireball_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="271939002" Name="Play_Rock_Falls" ObjectPath="\Events\Default Work Unit\Play_Rock_Falls" DurationType="OneShot" DurationMin="10.000000" DurationMax="10.000000">
+					<IncludedMemoryFiles>
+						<File Id="699103229" Language="SFX">
+							<ShortName>SFX\Ambience\Ice Fall Event\Rock_Fall.wav</ShortName>
+							<Path>SFX\SFX\Ambience\Ice Fall Event\Rock_Fall_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2843808113" Name="Play_Shoot_Fireball" ObjectPath="\Events\Default Work Unit\Play_Shoot_Fireball" DurationType="OneShot" DurationMin="1.781797" DurationMax="2.244924">
+					<IncludedMemoryFiles>
+						<File Id="99667722" Language="SFX">
+							<ShortName>SFX\Player\Fireballs\Shoot\Shoot_Fireball_03.wav</ShortName>
+							<Path>SFX\SFX\Player\Fireballs\Shoot\Shoot_Fireball_03_835714D9.wem</Path>
+						</File>
+						<File Id="143229324" Language="SFX">
+							<ShortName>SFX\Player\Fireballs\Shoot\Shoot_Fireball_01.wav</ShortName>
+							<Path>SFX\SFX\Player\Fireballs\Shoot\Shoot_Fireball_01_835714D9.wem</Path>
+						</File>
+						<File Id="317158725" Language="SFX">
+							<ShortName>SFX\Player\Fireballs\Shoot\Shoot_Fireball_06.wav</ShortName>
+							<Path>SFX\SFX\Player\Fireballs\Shoot\Shoot_Fireball_06_835714D9.wem</Path>
+						</File>
+						<File Id="393152359" Language="SFX">
+							<ShortName>SFX\Player\Fireballs\Shoot\Shoot_Fireball_04.wav</ShortName>
+							<Path>SFX\SFX\Player\Fireballs\Shoot\Shoot_Fireball_04_835714D9.wem</Path>
+						</File>
+						<File Id="591670436" Language="SFX">
+							<ShortName>SFX\Player\Fireballs\Shoot\Shoot_Fireball_02.wav</ShortName>
+							<Path>SFX\SFX\Player\Fireballs\Shoot\Shoot_Fireball_02_835714D9.wem</Path>
+						</File>
+						<File Id="692711024" Language="SFX">
+							<ShortName>SFX\Player\Fireballs\Shoot\Shoot_Fireball_05.wav</ShortName>
+							<Path>SFX\SFX\Player\Fireballs\Shoot\Shoot_Fireball_05_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3476151066" Name="Play_SlimeBoss_Crystalbomb" ObjectPath="\Events\Default Work Unit\Play_SlimeBoss_Crystalbomb" DurationType="OneShot" DurationMin="2.426292" DurationMax="2.426292">
+					<IncludedMemoryFiles>
+						<File Id="74385585" Language="SFX">
+							<ShortName>SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_03.wav</ShortName>
+							<Path>SFX\SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_03_835714D9.wem</Path>
+						</File>
+						<File Id="775886393" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\SlimeEnemy_CrystalBomb.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\SlimeEnemy_CrystalBomb_835714D9.wem</Path>
+						</File>
+						<File Id="862665358" Language="SFX">
+							<ShortName>SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_04.wav</ShortName>
+							<Path>SFX\SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_04_835714D9.wem</Path>
+						</File>
+						<File Id="874592872" Language="SFX">
+							<ShortName>SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_01.wav</ShortName>
+							<Path>SFX\SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_01_835714D9.wem</Path>
+						</File>
+						<File Id="933312901" Language="SFX">
+							<ShortName>SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_02.wav</ShortName>
+							<Path>SFX\SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_02_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2934593541" Name="Play_SlimeBoss_Dies" ObjectPath="\Events\Default Work Unit\Play_SlimeBoss_Dies" DurationType="OneShot" DurationMin="2.936708" DurationMax="2.936708">
+					<IncludedMemoryFiles>
+						<File Id="376573634" Language="SFX">
+							<ShortName>SFX\Slime Boss\SlimeBoss_Dies.wav</ShortName>
+							<Path>SFX\SFX\Slime Boss\SlimeBoss_Dies_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3219543309" Name="Play_SlimeBoss_Footsteps" ObjectPath="\Events\Default Work Unit\Play_SlimeBoss_Footsteps" DurationType="OneShot" DurationMin="0.727251" DurationMax="1.093256">
+					<IncludedMemoryFiles>
+						<File Id="116166406" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_04.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_04_835714D9.wem</Path>
+						</File>
+						<File Id="129273614" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_03.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_03_835714D9.wem</Path>
+						</File>
+						<File Id="241762536" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_09.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_09_835714D9.wem</Path>
+						</File>
+						<File Id="384264227" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_10.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_10_835714D9.wem</Path>
+						</File>
+						<File Id="476353048" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_06.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_06_835714D9.wem</Path>
+						</File>
+						<File Id="507902698" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_02.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_02_835714D9.wem</Path>
+						</File>
+						<File Id="595878830" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_07.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_07_835714D9.wem</Path>
+						</File>
+						<File Id="737902293" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_01.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_01_835714D9.wem</Path>
+						</File>
+						<File Id="895834746" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_05.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_05_835714D9.wem</Path>
+						</File>
+						<File Id="1045839937" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_08.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_08_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2130035552" Name="Play_SlimeBoss_JumpAttack" ObjectPath="\Events\Default Work Unit\Play_SlimeBoss_JumpAttack" DurationType="OneShot" DurationMin="2.261375" DurationMax="2.261375">
+					<IncludedMemoryFiles>
+						<File Id="74385585" Language="SFX">
+							<ShortName>SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_03.wav</ShortName>
+							<Path>SFX\SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_03_835714D9.wem</Path>
+						</File>
+						<File Id="351905105" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\SlimeEnemy_JumpAttack.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\SlimeEnemy_JumpAttack_835714D9.wem</Path>
+						</File>
+						<File Id="862665358" Language="SFX">
+							<ShortName>SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_04.wav</ShortName>
+							<Path>SFX\SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_04_835714D9.wem</Path>
+						</File>
+						<File Id="874592872" Language="SFX">
+							<ShortName>SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_01.wav</ShortName>
+							<Path>SFX\SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_01_835714D9.wem</Path>
+						</File>
+						<File Id="933312901" Language="SFX">
+							<ShortName>SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_02.wav</ShortName>
+							<Path>SFX\SFX\Slime Boss\Attack\Attack_Scream\SlimeBoss_Attack_Scream_02_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="706565491" Name="Play_SlimeEnemy_Crystalbomb_Hit" ObjectPath="\Events\Default Work Unit\Play_SlimeEnemy_Crystalbomb_Hit" DurationType="OneShot" DurationMin="2.642665" DurationMax="4.065932">
+					<IncludedMemoryFiles>
+						<File Id="566375187" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_01.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_01_835714D9.wem</Path>
+						</File>
+						<File Id="631967413" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_02.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_02_835714D9.wem</Path>
+						</File>
+						<File Id="957750160" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_03.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_03_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2798040113" Name="Play_SlimeEnemy_Crystalbomb_Shoot" ObjectPath="\Events\Default Work Unit\Play_SlimeEnemy_Crystalbomb_Shoot" DurationType="OneShot" DurationMin="2.426292" DurationMax="2.426292">
+					<IncludedMemoryFiles>
+						<File Id="324483679" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_01.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_01_835714D9.wem</Path>
+						</File>
+						<File Id="599351484" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_02.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_02_835714D9.wem</Path>
+						</File>
+						<File Id="764805597" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_03.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_03_835714D9.wem</Path>
+						</File>
+						<File Id="775886393" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\SlimeEnemy_CrystalBomb.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\SlimeEnemy_CrystalBomb_835714D9.wem</Path>
+						</File>
+						<File Id="996051689" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_04.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_04_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="809480324" Name="Play_SlimeEnemy_Dies" ObjectPath="\Events\Default Work Unit\Play_SlimeEnemy_Dies" DurationType="OneShot" DurationMin="2.474416" DurationMax="3.557035">
+					<IncludedMemoryFiles>
+						<File Id="244704488" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Death\SlimeEnemy_Dies_03.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Death\SlimeEnemy_Dies_03_835714D9.wem</Path>
+						</File>
+						<File Id="818757473" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Death\SlimeEnemy_Dies_04.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Death\SlimeEnemy_Dies_04_835714D9.wem</Path>
+						</File>
+						<File Id="971804320" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Death\SlimeEnemy_Dies_01.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Death\SlimeEnemy_Dies_01_835714D9.wem</Path>
+						</File>
+						<File Id="996969304" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Death\SlimeEnemy_Dies_02.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Death\SlimeEnemy_Dies_02_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1296868886" Name="Play_SlimeEnemy_Footsteps" ObjectPath="\Events\Default Work Unit\Play_SlimeEnemy_Footsteps" DurationType="OneShot" DurationMin="0.541685" DurationMax="0.814299">
+					<IncludedMemoryFiles>
+						<File Id="116166406" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_04.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_04_835714D9.wem</Path>
+						</File>
+						<File Id="129273614" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_03.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_03_835714D9.wem</Path>
+						</File>
+						<File Id="241762536" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_09.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_09_835714D9.wem</Path>
+						</File>
+						<File Id="384264227" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_10.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_10_835714D9.wem</Path>
+						</File>
+						<File Id="476353048" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_06.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_06_835714D9.wem</Path>
+						</File>
+						<File Id="507902698" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_02.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_02_835714D9.wem</Path>
+						</File>
+						<File Id="595878830" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_07.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_07_835714D9.wem</Path>
+						</File>
+						<File Id="737902293" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_01.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_01_835714D9.wem</Path>
+						</File>
+						<File Id="895834746" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_05.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_05_835714D9.wem</Path>
+						</File>
+						<File Id="1045839937" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Movement\footstep_EnemySlime_08.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_08_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1087398641" Name="Play_SlimeEnemy_JumpAttack" ObjectPath="\Events\Default Work Unit\Play_SlimeEnemy_JumpAttack" DurationType="OneShot" DurationMin="2.261375" DurationMax="2.261375">
+					<IncludedMemoryFiles>
+						<File Id="324483679" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_01.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_01_835714D9.wem</Path>
+						</File>
+						<File Id="351905105" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\SlimeEnemy_JumpAttack.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\SlimeEnemy_JumpAttack_835714D9.wem</Path>
+						</File>
+						<File Id="599351484" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_02.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_02_835714D9.wem</Path>
+						</File>
+						<File Id="764805597" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_03.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_03_835714D9.wem</Path>
+						</File>
+						<File Id="996051689" Language="SFX">
+							<ShortName>SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_04.wav</ShortName>
+							<Path>SFX\SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_04_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="933527613" Name="Reverb_Small" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small"/>
+						<AuxBus Id="1926542075" Name="Reverb_Temple" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1534117117" Name="Reset_All_Audio" ObjectPath="\Events\Default Work Unit\Reset_All_Audio" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="589943719" Name="Resume_Audio" ObjectPath="\Events\Default Work Unit\Resume_Audio" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2134046570" Name="Stop_Avalanche_Event" ObjectPath="\Events\Default Work Unit\Stop_Avalanche_Event" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3945748993" Name="Stop_Menu_Music" ObjectPath="\Events\Default Work Unit\Stop_Menu_Music" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="215992295" Name="Player_Health" ObjectPath="\Game Parameters\Default Work Unit\Player_Health"/>
+				<GameParameter Id="4056374651" Name="Fireball_Ammo" ObjectPath="\Game Parameters\Default Work Unit\Fireball_Ammo"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1690668539" Name="Music_States" ObjectPath="\States\Default Work Unit\Music_States" GUID="{34719CCD-2B99-42C4-A09C-B129CC4C8E8F}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_States\None" GUID="{7F11EFBC-C083-4A19-A779-29CE19C42C6A}"/>
+						<State Id="2937832959" Name="Battle" ObjectPath="\States\Default Work Unit\Music_States\Battle" GUID="{195B78B6-925A-4E08-AB35-D31380A1E009}"/>
+						<State Id="2582085496" Name="Exploration" ObjectPath="\States\Default Work Unit\Music_States\Exploration" GUID="{E7BE9819-3B2A-46EC-ADE8-EB07523FC9B0}"/>
+						<State Id="156193455" Name="Cave_Entrance" ObjectPath="\States\Default Work Unit\Music_States\Cave_Entrance" GUID="{FB52BAA1-0546-4066-8C44-7D55FA5B6C51}"/>
+						<State Id="1660436035" Name="Temple_Entrance" ObjectPath="\States\Default Work Unit\Music_States\Temple_Entrance" GUID="{ADEB9A2B-C575-48E4-9B15-B4893BAF569A}"/>
+						<State Id="2038059229" Name="Battle_Boss" ObjectPath="\States\Default Work Unit\Music_States\Battle_Boss" GUID="{6B0E3031-28B8-4644-9973-F35D4D088CC1}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3522892870" Name="Game_Ambience" ObjectPath="\States\Default Work Unit\Game_Ambience" GUID="{DCBDBDE7-6E31-46FB-8FD8-B4D7E4267C17}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Game_Ambience\None" GUID="{FA2FAEB6-09D7-4F80-AE65-5FAA8BED1056}"/>
+						<State Id="2323193050" Name="Temple" ObjectPath="\States\Default Work Unit\Game_Ambience\Temple" GUID="{BEFF2DC5-0B34-465B-9410-96F65984A002}"/>
+						<State Id="438105790" Name="Outside" ObjectPath="\States\Default Work Unit\Game_Ambience\Outside" GUID="{8E203E1F-759B-4B78-9EB5-F58B0BEEE0E8}"/>
+						<State Id="156193455" Name="Cave_Entrance" ObjectPath="\States\Default Work Unit\Game_Ambience\Cave_Entrance" GUID="{F6D1539E-E376-4946-98B4-33703BAEA1AE}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="541470702" Name="Player_Movement" ObjectPath="\Switches\Default Work Unit\Player_Movement" GUID="{A440C454-0CB5-470A-A168-0E015CB32921}">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Player_Movement\Stone" GUID="{A652B4AF-21BC-416B-BD27-72FEB4467D72}"/>
+						<Switch Id="2655407367" Name="Crouch" ObjectPath="\Switches\Default Work Unit\Player_Movement\Crouch" GUID="{8155A318-D1D8-4345-A522-8C10196F4C3B}"/>
+						<Switch Id="787898836" Name="Snow" ObjectPath="\Switches\Default Work Unit\Player_Movement\Snow" GUID="{B0505601-5D98-408D-95CC-9A3F1CB2B485}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

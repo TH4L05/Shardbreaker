@@ -1,0 +1,53 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	90798337	Reverb_Group			\Default Work Unit\Reverb_Group	
+	1690668539	Music_States			\Default Work Unit\Music_States	
+	3522892870	Game_Ambience			\Default Work Unit\Game_Ambience	
+
+State	ID	Name	State Group			Notes
+	438105790	Outside	Reverb_Group			
+	748895195	None	Reverb_Group			
+	2216367768	Small_Hall	Reverb_Group			
+	2323193050	Temple	Reverb_Group			
+	156193455	Cave_Entrance	Music_States			
+	748895195	None	Music_States			
+	1660436035	Temple_Entrance	Music_States			
+	2038059229	Battle_Boss	Music_States			
+	2582085496	Exploration	Music_States			
+	2937832959	Battle	Music_States			
+	156193455	Cave_Entrance	Game_Ambience			
+	438105790	Outside	Game_Ambience			
+	748895195	None	Game_Ambience			
+	2323193050	Temple	Game_Ambience			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	170594042	Temple	Reverb_Group	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small		
+	196741236	Outside	Reverb_Group	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple		
+	267041440	Outside	Reverb_Group	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small		
+	981693906	Small_Hall	Reverb_Group	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Temple		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	215992295	Player_Health			\Default Work Unit\Player_Health	
+	715886074	Master_Music_Fader			\Default Work Unit\Master_Music_Fader	
+	1119270718	Master_SFX_Fader			\Default Work Unit\Master_SFX_Fader	
+	3317133049	Master_Volume_Fader			\Default Work Unit\Master_Volume_Fader	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3257610129	Sub_SFX			\Default Work Unit\Master Audio Bus\SFX\Sub_SFX	
+	3322116549	Sub_Music			\Default Work Unit\Master Audio Bus\Music\Sub_Music	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	933527613	Reverb_Small			\Default Work Unit\Master Audio Bus\Reverb_Small	
+	1926542075	Reverb_Temple			\Default Work Unit\Master Audio Bus\Reverb_Temple	
+
+Effect plug-ins	ID	Name	Type				Notes
+	602546716	Room_Large	Wwise RoomVerb			
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

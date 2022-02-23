@@ -1,0 +1,158 @@
+Event	ID	Name			Wwise Object Path	Notes
+	589943719	Resume_Audio			\Default Work Unit\Resume_Audio	
+	706565491	Play_SlimeEnemy_Crystalbomb_Hit			\Default Work Unit\Play_SlimeEnemy_Crystalbomb_Hit	
+	792314278	Play_SlimeEnemy_Fireshield			\Default Work Unit\Play_SlimeEnemy_Fireshield	
+	809480324	Play_SlimeEnemy_Dies			\Default Work Unit\Play_SlimeEnemy_Dies	
+	1087398641	Play_SlimeEnemy_JumpAttack			\Default Work Unit\Play_SlimeEnemy_JumpAttack	
+	1149159311	Play_Button_Click			\Default Work Unit\Play_Button_Click	
+	1296868886	Play_SlimeEnemy_Footsteps			\Default Work Unit\Play_SlimeEnemy_Footsteps	
+	1339443994	Play_Player_Ammo			\Default Work Unit\Play_Player_Ammo	
+	1766582619	Play_Jump_Start			\Default Work Unit\Play_Jump_Start	
+	2072508386	Play_Player_Health			\Default Work Unit\Play_Player_Health	
+	2134046570	Stop_Avalanche_Event			\Default Work Unit\Stop_Avalanche_Event	
+	2228153899	Play_Menu_Music			\Default Work Unit\Play_Menu_Music	
+	2575780728	Play_Avalanche_Event			\Default Work Unit\Play_Avalanche_Event	
+	2639561595	Play_Game_Ambience			\Default Work Unit\Play_Game_Ambience	
+	2798040113	Play_SlimeEnemy_Crystalbomb_Shoot			\Default Work Unit\Play_SlimeEnemy_Crystalbomb_Shoot	
+	2843808113	Play_Shoot_Fireball			\Default Work Unit\Play_Shoot_Fireball	
+	3260968109	Play_Music_System			\Default Work Unit\Play_Music_System	
+	3293684279	Play_Reload_Fireball			\Default Work Unit\Play_Reload_Fireball	
+	3297008698	Play_Jump_Land			\Default Work Unit\Play_Jump_Land	
+	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
+	3945748993	Stop_Menu_Music			\Default Work Unit\Stop_Menu_Music	
+	4021863785	Play_Button_Hover			\Default Work Unit\Play_Button_Hover	
+	4122976862	Pause_Audio			\Default Work Unit\Pause_Audio	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	541470702	Player_Movement			\Default Work Unit\Player_Movement	
+
+Switch	ID	Name	Switch Group			Notes
+	787898836	Snow	Player_Movement			
+	1216965916	Stone	Player_Movement			
+	2655407367	Crouch	Player_Movement			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1690668539	Music_States			\Default Work Unit\Music_States	
+	3522892870	Game_Ambience			\Default Work Unit\Game_Ambience	
+
+State	ID	Name	State Group			Notes
+	156193455	Cave_Entrance	Music_States			
+	748895195	None	Music_States			
+	1660436035	Temple_Entrance	Music_States			
+	2582085496	Exploration	Music_States			
+	2937832959	Battle	Music_States			
+	156193455	Cave_Entrance	Game_Ambience			
+	438105790	Outside	Game_Ambience			
+	748895195	None	Game_Ambience			
+	2323193050	Temple	Game_Ambience			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	215992295	Player_Health			\Default Work Unit\Player_Health	
+	4056374651	Fireball_Ammo			\Default Work Unit\Fireball_Ammo	
+
+Effect plug-ins	ID	Name	Type				Notes
+	22994507	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	333715242	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	370807170	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	649140	crouch_03	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Crouch\crouch_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Crouch\crouch_03		9968
+	14692668	Ice_Fall_12	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_12_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Avalanche_Event\Ice_Fall\Ice_Fall_12		55312
+	19132751	Ice_Fall_04	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_04_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Avalanche_Event\Ice_Fall\Ice_Fall_04		20801
+	41542410	crouch_05	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Crouch\crouch_05_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Crouch\crouch_05		13343
+	70500053	Ice_Fall_01	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Avalanche_Event\Ice_Fall\Ice_Fall_01		18573
+	83194755	SB_Singing_Ice_01	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Singing Ice\SB_Singing_Ice_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Game_Ambience\Singing_Ice\SB_Singing_Ice_01		143582
+	86568776	SlimeEnemy_Fireshield	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Attack\SlimeEnemy_Fireshield_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Attacks\Fireshield\SlimeEnemy_Fireshield\SlimeEnemy_Fireshield		145816
+	99667722	Shoot_Fireball_03	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Player\Fireballs\Shoot\Shoot_Fireball_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Attack\Shoot_Fireball\Fireballs\Shoot_Fireball_03		35642
+	116166406	footstep_EnemySlime_04	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_04_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Movement\SlimeEnemy_Footsteps\footstep_EnemySlime_04		25193
+	129273614	footstep_EnemySlime_03	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Movement\SlimeEnemy_Footsteps\footstep_EnemySlime_03		23320
+	143229324	Shoot_Fireball_01	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Player\Fireballs\Shoot\Shoot_Fireball_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Attack\Shoot_Fireball\Fireballs\Shoot_Fireball_01		42543
+	149202808	footstep_snow_01	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Snow\footstep_snow_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Snow\footstep_snow_01		18339
+	150966285	Ice_Fall_06	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_06_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Avalanche_Event\Ice_Fall\Ice_Fall_06		29760
+	157337873	footstep_snow_07	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Snow\footstep_snow_07_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Snow\footstep_snow_07		10701
+	177094619	crouch_06	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Crouch\crouch_06_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Crouch\crouch_06		12688
+	186236346	Button_Click	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\UI\Button_Click_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button_Click		69258
+	187106004	SlimeEnemy_CrystalBomb_Hit_02	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Attack\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Attacks\Crystalbomb\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_02		134695
+	195300535	Ice_Fall_07	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_07_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Avalanche_Event\Ice_Fall\Ice_Fall_07		24372
+	210212238	footstep_snow_02	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Snow\footstep_snow_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Snow\footstep_snow_02		10879
+	219731457	SB_Ice_Crackle_01	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Crackle\SB_Ice_Crackle_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Game_Ambience\Ice_Crackles\SB_Ice_Crackle_01		222951
+	233816335	crouch_01	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Crouch\crouch_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Crouch\crouch_01		12204
+	234694841	footstep_snow_04	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Snow\footstep_snow_04_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Snow\footstep_snow_04		10336
+	241762536	footstep_EnemySlime_09	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_09_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Movement\SlimeEnemy_Footsteps\footstep_EnemySlime_09		21748
+	244704488	SlimeEnemy_Dies_03	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Death\SlimeEnemy_Dies_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\SlimeEnemy_Dies\SlimeEnemy_Dies_03		82684
+	246312365	crouch_04	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Crouch\crouch_04_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Crouch\crouch_04		15284
+	248174962	Earthquake_Loop	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Fall Event\Earthquake_Loop_4DAFD53B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Avalanche_Event\Earthquake_Loop		557362
+	265076322	SB_Singing_Ice_05	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Singing Ice\SB_Singing_Ice_05_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Game_Ambience\Singing_Ice\SB_Singing_Ice_05		140807
+	275943627	SB_MUS_Cave_Entrance	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\Music\Ambient\SB_MUS_Cave_Entrance_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\SB_Music_System\Cave_Entrance\Cave_Entrance\SB_MUS_Cave_Entrance		630958
+	278032817	Avalanche_Loop	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Fall Event\Avalanche_Loop_902EB870.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Avalanche_Event\Avalanche_Loop		1222140
+	317158725	Shoot_Fireball_06	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Player\Fireballs\Shoot\Shoot_Fireball_06_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Attack\Shoot_Fireball\Fireballs\Shoot_Fireball_06		38627
+	320423422	footstep_stone_07	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_07_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Stone\footstep_stone_07		14321
+	321062955	footstep_stone_05	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_05_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Stone\footstep_stone_05		10381
+	324483679	SlimeEnemy_Attack_Scream_01	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Attacks\Fireshield\SlimeEnemy_Fireshield\SlimeEnemy_Scream\SlimeEnemy_Attack_Scream_01		26382
+	338893702	Fireball_Ammunition	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Player\Fireballs\Fireballs_Ammunition_Loop_6150A54D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Attack\Fireball_Ammunition		341998
+	351905105	Jump_Attack	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Attack\SlimeEnemy_JumpAttack_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Attacks\JumpAttack\SlimeEnemy_JumpAttack\Jump_Attack		109277
+	355455819	SB_MH_Music_Temple_Ambience_70bpm_V2	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\Music\Ambient\SB_MH_Music_Temple_Ambience_70bpm_V2_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\SB_Music_System\Temple_Entrance\MUS_MH_Temple_Ambient_70bpm_4_bar_post\SB_MH_Music_Temple_Ambience_70bpm_V2		3480375
+	380832895	footstep_snow_08	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Snow\footstep_snow_08_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Snow\footstep_snow_08		10438
+	384264227	footstep_EnemySlime_10	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_10_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Movement\SlimeEnemy_Footsteps\footstep_EnemySlime_10		20099
+	393152359	Shoot_Fireball_04	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Player\Fireballs\Shoot\Shoot_Fireball_04_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Attack\Shoot_Fireball\Fireballs\Shoot_Fireball_04		39303
+	405157975	footstep_stone_08	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_08_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Stone\footstep_stone_08		10178
+	409317301	SB_Singing_Ice_04	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Singing Ice\SB_Singing_Ice_04_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Game_Ambience\Singing_Ice\SB_Singing_Ice_04		156867
+	421901819	Outside_Ambience	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ambience Loops\SB_Amb_Ravine_1158B4AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Game_Ambience\Outside_Ambience		1523971
+	422553571	footstep_snow_05	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Snow\footstep_snow_05_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Snow\footstep_snow_05		12185
+	429187857	crouch_02	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Crouch\crouch_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Crouch\crouch_02		14776
+	446562228	footstep_snow_10	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Snow\footstep_snow_10_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Snow\footstep_snow_10		9996
+	447643949	SB_Ice_Crackle_02	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Crackle\SB_Ice_Crackle_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Game_Ambience\Ice_Crackles\SB_Ice_Crackle_02		225533
+	471772875	footstep_stone_06	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_06_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Stone\footstep_stone_06		11675
+	476353048	footstep_EnemySlime_06	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_06_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Movement\SlimeEnemy_Footsteps\footstep_EnemySlime_06		22793
+	484328337	SB_Ice_Crackle_06	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Crackle\SB_Ice_Crackle_06_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Game_Ambience\Ice_Crackles\SB_Ice_Crackle_06		242770
+	503028849	Ice_Fall_03	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Avalanche_Event\Ice_Fall\Ice_Fall_03		20134
+	507232765	SB_Singing_Ice_02	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Singing Ice\SB_Singing_Ice_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Game_Ambience\Singing_Ice\SB_Singing_Ice_02		162811
+	507353998	SB_Ice_Crackle_04	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Crackle\SB_Ice_Crackle_04_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Game_Ambience\Ice_Crackles\SB_Ice_Crackle_04		368692
+	507902698	footstep_EnemySlime_02	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Movement\SlimeEnemy_Footsteps\footstep_EnemySlime_02		23024
+	513479946	SlimeEnemy_CrystalBomb_Hit_01	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Attack\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Attacks\Crystalbomb\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_01		129163
+	522631587	footstep_stone_10	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_10_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Stone\footstep_stone_10		12187
+	540444824	SB_MUS_Temple_Entrance	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\Music\Ambient\SB_MUS_Temple_Entrance_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\SB_Music_System\Temple_Entrance\MUS_Temple_Entrance_70bpm\SB_MUS_Temple_Entrance		1069090
+	586958835	Music_Menu_50bpm_4_bar_post	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\Music\Menu\Music_Menu_50bpm_4_bar_post_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Menu\Music_Menu_50bpm_4_bar_post\Music_Menu_50bpm_4_bar_post		4136953
+	591356054	footstep_stone_02	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Stone\footstep_stone_02		14565
+	591670436	Shoot_Fireball_02	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Player\Fireballs\Shoot\Shoot_Fireball_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Attack\Shoot_Fireball\Fireballs\Shoot_Fireball_02		38726
+	594283698	footstep_stone_03	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Stone\footstep_stone_03		11243
+	595878830	footstep_EnemySlime_07	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_07_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Movement\SlimeEnemy_Footsteps\footstep_EnemySlime_07		22839
+	599351484	SlimeEnemy_Attack_Scream_02	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Attacks\Fireshield\SlimeEnemy_Fireshield\SlimeEnemy_Scream\SlimeEnemy_Attack_Scream_02		20256
+	600853319	Temple_Ambience	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ambience Loops\SB_Amb_Temple_39CAEF45.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Game_Ambience\Temple_Ambience		1148383
+	604291385	footstep_stone_04	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_04_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Stone\footstep_stone_04		14345
+	619555685	Reload_Fireball	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Player\Fireballs\Shoot\Reload_Fireball_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Attack\Reload_Fireball		44782
+	632043289	footstep_snow_06	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Snow\footstep_snow_06_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Snow\footstep_snow_06		12880
+	634751544	Ice_Fall_09	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_09_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Avalanche_Event\Ice_Fall\Ice_Fall_09		43888
+	654669829	footstep_stone_09	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_09_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Stone\footstep_stone_09		13108
+	688635292	Button_Hover	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\UI\Button_Hover_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button_Hover		155994
+	692711024	Shoot_Fireball_05	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Player\Fireballs\Shoot\Shoot_Fireball_05_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Attack\Shoot_Fireball\Fireballs\Shoot_Fireball_05		37291
+	693715645	SB_MH_Combat_145bpm	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\Music\Battle\SB_MH_Combat_145bpm_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\SB_Music_System\Battle_Music_Looper\Battle_Music\SB_MH_Combat_145bpm		1049758
+	699103229	Rock_Fall	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Fall Event\Rock_Fall_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Avalanche_Event\Rock_Fall		287694
+	705424666	SB_Singing_Ice_03	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Singing Ice\SB_Singing_Ice_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Game_Ambience\Singing_Ice\SB_Singing_Ice_03		130852
+	712814053	footstep_snow_09	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Snow\footstep_snow_09_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Snow\footstep_snow_09		8235
+	718469942	Player_Jump_Start	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\SB_Jump_Start_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Jump\Player_Jump_Start		12914
+	735522093	Ice_Fall_05	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_05_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Avalanche_Event\Ice_Fall\Ice_Fall_05		23853
+	737902293	footstep_EnemySlime_01	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Movement\SlimeEnemy_Footsteps\footstep_EnemySlime_01		23991
+	741785356	SlimeEnemy_CrystalBomb_Hit_03	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Attack\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Attacks\Crystalbomb\Crystalbomb_Hit\SlimeEnemy_CrystalBomb_Hit_03		142931
+	764805597	SlimeEnemy_Attack_Scream_03	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Attacks\Fireshield\SlimeEnemy_Fireshield\SlimeEnemy_Scream\SlimeEnemy_Attack_Scream_03		17806
+	775886393	SlimeEnemy_Crystalbomb	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Attack\SlimeEnemy_CrystalBomb_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Attacks\Crystalbomb\SlimeEnemy_Crystalbomb\SlimeEnemy_Crystalbomb		88282
+	792872035	Ice_Fall_11	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_11_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Avalanche_Event\Ice_Fall\Ice_Fall_11		44709
+	818757473	SlimeEnemy_Dies_04	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Death\SlimeEnemy_Dies_04_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\SlimeEnemy_Dies\SlimeEnemy_Dies_04		82012
+	821585041	Ice_Fall_08	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_08_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Avalanche_Event\Ice_Fall\Ice_Fall_08		28635
+	848431738	Player_Health	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Player\Player_Heartbeat_602705A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Health		297686
+	867632294	Ice_Fall_10	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_10_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Avalanche_Event\Ice_Fall\Ice_Fall_10		42768
+	869018253	Ice_Fall_02	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Fall Event\Ice_Falls\Ice_Fall_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Avalanche_Event\Ice_Fall\Ice_Fall_02		22434
+	879815920	footstep_stone_01	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Surface\Stone\footstep_stone_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Stone\footstep_stone_01		14571
+	881997501	Player_Jump_Land	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\SB_Jump_Land_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Jump\Player_Jump_Land		8452
+	883101453	crouch_07	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Crouch\crouch_07_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Crouch\crouch_07		13362
+	891574096	Cave_Entrance	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ambience Loops\SB_Amb_Ravine_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Game_Ambience\Cave_Entrance		1525402
+	895834746	footstep_EnemySlime_05	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_05_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Movement\SlimeEnemy_Footsteps\footstep_EnemySlime_05		23676
+	948916400	footstep_snow_03	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Snow\footstep_snow_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Snow\footstep_snow_03		10374
+	971804320	SlimeEnemy_Dies_01	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Death\SlimeEnemy_Dies_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\SlimeEnemy_Dies\SlimeEnemy_Dies_01		88353
+	992348648	crouch_08	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Movement\Player\Crouch\crouch_08_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Movement\Footsteps\Footsteps_Crouch\crouch_08		16785
+	996051689	SlimeEnemy_Attack_Scream_04	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Attack\Attack_Scream\SlimeEnemy_Attack_Scream_04_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Attacks\Fireshield\SlimeEnemy_Fireshield\SlimeEnemy_Scream\SlimeEnemy_Attack_Scream_04		16092
+	996969304	SlimeEnemy_Dies_02	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Death\SlimeEnemy_Dies_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\SlimeEnemy_Dies\SlimeEnemy_Dies_02		94858
+	1045839937	footstep_EnemySlime_08	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Slime Enemy\Movement\footstep_EnemySlime_08_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Movement\SlimeEnemy_Footsteps\footstep_EnemySlime_08		20279
+	1047193199	SB_Ice_Crackle_05	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Crackle\SB_Ice_Crackle_05_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Game_Ambience\Ice_Crackles\SB_Ice_Crackle_05		274795
+	1058821247	SB_Ice_Crackle_03	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Mac\SFX\SFX\Ambience\Ice Crackle\SB_Ice_Crackle_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Ambience\Game_Ambience\Ice_Crackles\SB_Ice_Crackle_03		279917
+

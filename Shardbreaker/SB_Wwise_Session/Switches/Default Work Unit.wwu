@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{42B45980-5316-4254-BBC2-BF9A9DBCF23C}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{42B45980-5316-4254-BBC2-BF9A9DBCF23C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Player_Movement" ID="{A440C454-0CB5-470A-A168-0E015CB32921}">
+					<ChildrenList>
+						<Switch Name="Stone" ID="{A652B4AF-21BC-416B-BD27-72FEB4467D72}"/>
+						<Switch Name="Crouch" ID="{8155A318-D1D8-4345-A522-8C10196F4C3B}"/>
+						<Switch Name="Snow" ID="{B0505601-5D98-408D-95CC-9A3F1CB2B485}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

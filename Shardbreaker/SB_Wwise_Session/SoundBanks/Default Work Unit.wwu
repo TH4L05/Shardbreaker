@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0985592D-1A87-4B0D-814A-9E641B0FD366}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{0985592D-1A87-4B0D-814A-9E641B0FD366}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{2C253C43-08FE-4704-BFDB-E53DD3D9848A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Avalanche_Event" ID="{A9928B01-EDFE-413C-9AF1-4ECB9F9CE62F}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SlimeEnemy_Dies" ID="{FE99251D-B7C7-416A-B93B-538762738D36}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Raptor_Scream" ID="{B88CA308-7557-4242-BB19-487E31AB3976}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SlimeBoss_Dies" ID="{05761F66-D9EA-4303-91EE-EE957566CE8C}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Jump_Start" ID="{E0B2C6F0-99A4-4356-9BA0-F65555D8A2DC}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Reset_All_Audio" ID="{774CBF7D-1C8F-435B-ABB3-7A71B1151EBF}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Jump_Land" ID="{14C2A1C8-9BA2-43A6-B490-2FC543136BC6}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SlimeBoss_Crystalbomb" ID="{86CAFE27-7100-44C6-87C7-8B81EABE1061}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SlimeBoss_Footsteps" ID="{B1992B0A-5803-44ED-8AF8-73054E9DFF0B}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Menu_Music" ID="{35B720A0-3BCD-4505-90F9-82CB8215728F}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music_System" ID="{83F05655-1E5A-4506-8D19-3EA6E63BAF60}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SlimeBoss_JumpAttack" ID="{65D9DAF0-7BEA-453C-922E-6EBFA6EBE0FE}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Raptor_Footsteps" ID="{3F7F265E-D36F-4578-AD84-2C38E1DE486C}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fireball_Impact" ID="{D27E0B20-FB55-467A-8EE3-9EB74F4E69A3}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SlimeEnemy_JumpAttack" ID="{A254FA74-7240-46EF-802A-2D34C609F986}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rock_Falls" ID="{43B7945A-F7B4-4801-9FE0-FB1C6D86D902}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Game_Ambience" ID="{53A2F1BC-0AC4-487A-BFB6-33F69DEA1B8F}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Avalanche_Event" ID="{E1E88B19-44BA-489B-8793-D29E605FC5F2}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Crystalbomb_Hit" ID="{3DC28721-2EAE-4918-B633-615FB549BFCF}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reload_Fireball" ID="{3146F5A1-B855-49B2-B72B-D11B16D064B9}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footsteps" ID="{3B4BE86A-8F47-49D1-81F0-CEB98BA01280}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Cutscene_Audio" ID="{DB3B79E2-FD3B-4A46-8FD9-2BA70A4AEE22}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Ammo" ID="{87F92246-CAB4-4AD0-8BBF-38CD0F21E943}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SlimeEnemy_Footsteps" ID="{A04C7FD4-D644-4B9E-9842-846C4FCC64F8}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Cutscene_Music" ID="{6053860D-ED76-4BDF-858D-19AA0735698D}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Health" ID="{166C0D03-A32B-4C7D-9CE0-804E5C46B4D0}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Button_Click" ID="{5AD1B6ED-10EB-4C9E-A38A-C154B278B0C3}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CrystalShard" ID="{66B4286E-D6CD-4CFF-81CA-8B0DBCA29A4F}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Button_Hover" ID="{66D5563E-60B1-4D05-9169-68A441D41D54}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SlimeEnemy_Crystalbomb_Hit" ID="{024C81F5-FDE6-4D4A-B4C8-E22B03B47502}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Menu_Music" ID="{8E265AF8-A413-4DD7-8A60-C498CA1E8955}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Pickup_Crystal" ID="{0ACF31EB-F6BE-4E0D-84C3-A54DAAA69B73}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pause_Audio" ID="{A1CCD4A6-FD0A-4E9E-B6E8-6986709FAD39}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SlimeEnemy_Crystalbomb_Shoot" ID="{A31B3A32-B2AC-4EF5-87D6-5A29348E22C2}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Shoot_Fireball" ID="{559AAAFC-F735-4EFC-9D3D-82BFD2D59DB6}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Crystalbomb_Shoot" ID="{53A9071B-BC9D-4FA1-B970-BD79F4908540}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Raptor_Jump" ID="{1710E20D-667D-4FBA-8AE2-4931B6CD636B}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fire_AOE" ID="{5F9885E8-033E-4FC7-BBAE-8BB18C7BDB34}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Resume_Audio" ID="{26305171-72D8-4FE1-9762-D163436C4BF8}" WorkUnitID="{D883E2C5-DACB-4A85-B2D2-6CF356734D2E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

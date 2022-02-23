@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2724869341	Music_Switch			\Default Work Unit\Music_Switch	
+
+Switch	ID	Name	Switch Group			Notes
+	2582085496	Exploration	Music_Switch			
+	2937832959	Battle	Music_Switch			
+
+Effect plug-ins	ID	Name	Type				Notes
+	370807170	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	56480803	SB_MUC_JF_Temple_Ambient_50bpm_4_bar_post	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Windows\SFX\Music\Ambient\SB_MUC_JF_Temple_Ambient_50bpm_4_bar_post_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SB_Music_Looper\SB_Ambient_Looper\SB_MUC_JF_Temple_Ambient_50bpm_4_bar_post\SB_MUC_JF_Temple_Ambient_50bpm_4_bar_post		33177968
+	610230620	SB_MUC_MZ_Temple_Ambient_50bpm_4_bar_post	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Windows\SFX\Music\Ambient\SB_MUC_MZ_Temple_Ambient_50bpm_4_bar_post_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SB_Music_Looper\SB_Ambient_Looper\SB_MUC_MZ_Temple_Ambient_70bpm_4_bar_post\SB_MUC_MZ_Temple_Ambient_50bpm_4_bar_post		9521828
+	693715645	SB_MH_Combat_145bpm	D:\Repositories\Shardbreaker\TheGame\SB_Wwise_Session\.cache\Windows\SFX\Music\Battle\SB_MH_Combat_145bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\SB_Music_Looper\SB_MH_Combat_145bpm\SB_MH_Combat_145bpm		6314440
+

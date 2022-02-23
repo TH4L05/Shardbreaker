@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C9FF61BA-74E0-43D4-AD93-C164B459C110}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{C9FF61BA-74E0-43D4-AD93-C164B459C110}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Game_Ambience" ID="{DCBDBDE7-6E31-46FB-8FD8-B4D7E4267C17}">
+					<ChildrenList>
+						<State Name="None" ID="{FA2FAEB6-09D7-4F80-AE65-5FAA8BED1056}"/>
+						<State Name="Temple" ID="{BEFF2DC5-0B34-465B-9410-96F65984A002}"/>
+						<State Name="Outside" ID="{8E203E1F-759B-4B78-9EB5-F58B0BEEE0E8}"/>
+						<State Name="Cave_Entrance" ID="{F6D1539E-E376-4946-98B4-33703BAEA1AE}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Reverb_Group" ID="{324914B6-F541-43E0-B642-BC0AD04F1620}">
+					<ChildrenList>
+						<State Name="None" ID="{5EA88D75-8BE9-47E9-8F6F-CB2BA47AB7C1}"/>
+						<State Name="Outside" ID="{ED7A5442-24EF-4BA2-8045-9CCC84D753A2}"/>
+						<State Name="Temple" ID="{765E8112-95A9-412E-BB81-15ED02DD59C4}"/>
+						<State Name="Small_Hall" ID="{ED8440AA-AB92-4D8D-89F9-FADF0AEBBDE0}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_States" ID="{34719CCD-2B99-42C4-A09C-B129CC4C8E8F}">
+					<ChildrenList>
+						<State Name="None" ID="{7F11EFBC-C083-4A19-A779-29CE19C42C6A}"/>
+						<State Name="Battle" ID="{195B78B6-925A-4E08-AB35-D31380A1E009}"/>
+						<State Name="Exploration" ID="{E7BE9819-3B2A-46EC-ADE8-EB07523FC9B0}"/>
+						<State Name="Cave_Entrance" ID="{FB52BAA1-0546-4066-8C44-7D55FA5B6C51}"/>
+						<State Name="Temple_Entrance" ID="{ADEB9A2B-C575-48E4-9B15-B4893BAF569A}"/>
+						<State Name="Battle_Boss" ID="{6B0E3031-28B8-4644-9973-F35D4D088CC1}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

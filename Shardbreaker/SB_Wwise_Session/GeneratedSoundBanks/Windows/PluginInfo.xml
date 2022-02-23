@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Project="SB_Wwise_Session" Platform="Windows" BasePlatform="Windows">
+	<Plugins>
+		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="AkParametricEQ" StaticLib="AkParametricEQFX"/>
+		<Plugin Name="Wwise Peak Limiter" ID="7208963" DLL="AkPeakLimiter" StaticLib="AkPeakLimiterFX"/>
+		<Plugin Name="Wwise RoomVerb" ID="7733251" DLL="AkRoomVerb" StaticLib="AkRoomVerbFX"/>
+		<Plugin Name="Wwise Harmonizer" ID="9043971" DLL="AkHarmonizer" StaticLib="AkHarmonizerFX"/>
+		<Plugin Name="System" ID="11403271"/>
+		<Plugin Name="No Output" ID="11862023"/>
+	</Plugins>
+</PluginInfo>
